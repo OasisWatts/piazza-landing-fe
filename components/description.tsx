@@ -11,7 +11,7 @@ import Image from 'next/image'
 export default function Description() {
     return (
         <section className="relative">
-            < div className="pb-20 mx-auto max-w-3xl max-md:hidden" data-aos="zoom-y-out">
+            < div className="mx-auto max-w-3xl max-md:hidden" data-aos="zoom-y-out">
                 <Image className='' src={BrowserDescriptionImg} alt="Screen Description Image" data-aos="zoom-y-out" />
                 <div className='absolute top-[27rem] left-[3rem] text-lg text-center'>Write memos<br />on a web page</div>
                 <div className='absolute top-[19rem] right-[2.5rem] text-lg text-center'>Discuss about<br />the web pages</div>
