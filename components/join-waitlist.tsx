@@ -32,16 +32,14 @@ export default function JoinWaitlist() {
             setToggleAlertEmailFormat(false)
             if (checkPrivacyPolicy && checkReceiveEmail) { // request
                 setToggleAlertAgreement(false)
-                axios.get("http://localhost:4416/api/waitlist?e=" + emailtext).then((res) => {
+                axios.get("https://piazza.run/api/waitlist?e=" + emailtext).then((res) => {
                     window.location.href = "/"
                 })
             } else {
                 setToggleAlertAgreement(true)
             }
-            console.log("alert", emailtext)
         } else {
             setToggleAlertEmailFormat(true)
-            console.log("no alret", emailtext)
         }
     }
     return (
