@@ -1,17 +1,17 @@
 import LogoDiscord from "./logo-discord";
-import LogoLinkedin from "./logo-linkedin";
+import LogoInstagram from "./logo-instagram";
 import LogoTwitter from "./logo-twitter";
 
 export default function Footer() {
   return (
     <footer>
       <div className="bg-lightPink p-7 pt-10 flex flex-col items-center">
-        <div className="mb-7 flex justify-around">
+        <div className="mb-7 flex justify-around relative">
           <div className="mr-10">
             <LogoDiscord size={20} fill="#666666" /></div>
           <div className="mr-10">
-            <LogoLinkedin size={20} fill="#666666" /></div>
-          <LogoTwitter size={20} fill="#666666" />
+            <LogoTwitter size={18} fill="#666666" /></div>
+          <div className="bottom-0.5 relative"><LogoInstagram size={22} fill="#666666" /></div>
         </div>
         <div className="text-gray-600 text-sm text-center mb-7">
           piazzabrowser@gmail.com

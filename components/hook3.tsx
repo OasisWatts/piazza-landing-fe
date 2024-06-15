@@ -1,9 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-import CommunityPostImg from '@/public/images/community-post.png'
-import { Player } from '@lottiefiles/react-lottie-player'
-
 export default function Hook2() {
     return (
         <section className="relative">
@@ -20,14 +16,10 @@ export default function Hook2() {
                 </div >
                 {/* Img */}
                 < div className="md:w-full" data-aos="zoom-y-out">
-                    <Player
-                        autoplay
-                        loop
-                        src="@/public/videos/screen-video.json"
-                        style={{ height: '300px', width: '300px' }}
-                    >
-                        {/* <Controls visible={true} buttons={['play', 'repeat', 'frame', 'debug']} /> */}
-                    </Player>
+                    <video loop controls autoPlay playsInline muted className='max-md:mx-auto md:ml-auto md:w-img w-smimg md:h-img h-smimg' >
+                        <source src="/videos/home-tags.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div >
             </div >
         </section>

@@ -108,7 +108,9 @@ module.exports = {
         smimg: '10rem'
       },
       height: {
-        btn: '3rem'
+        btn: '3rem',
+        img: '33rem',
+        smimg: '23rem'
       },
       opacity: {
         '90': '0.9',

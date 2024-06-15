@@ -2,15 +2,13 @@
 
 import ButtonDownload from "./button-download"
 import ButtonRouteWaitlist from "./button-routeWaitlist";
-import ButtonGradient from "./button-routeWaitlist"
-import PiazzaLogo from '@/components/ui/logo-piazza';
 
 
 export default function Close() {
     return (
         <section className="relative">
             {/* Intro content */}
-            <div className="pt-28 pb-12 md:pt-40 md:pb-20 mx-5 md:mx-auto max-w-3xl">
+            <div className="pt-28 pb-40 md:pt-40 mx-5 md:mx-auto max-w-3xl">
                 {/* Section header */}
                 <div className="md:text-center">
                     <h1 className="text-2xl leading-tighter tracking-tighter mb-[2rem] md:mb-[5rem] text-center" data-aos="zoom-y-out">
