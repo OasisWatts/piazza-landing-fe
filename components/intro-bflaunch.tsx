@@ -20,7 +20,7 @@ export default function IntroBfLanch() {
                 </div>
                 <div className="md:text-center">
                     <h1 className="text-3xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-[4rem] md:mb-[5rem]" data-aos="zoom-y-out">
-                        Write & Share Anything within Web Pages on Browser</h1>
+                        Piazza is an <p className="text-violet inline">innovative browsing app</p> where you can <p className="text-brown inline">Write & Share</p> Anything within Web Pages</h1>
                     <div className="max-w-xs md:mx-auto md:max-w-none content-start flex flex-col md:flex-row md:justify-center md:items-center" data-aos="zoom-y-out" data-aos-delay="300">
                         <ButtonRouteWaitlist />
                     </div>

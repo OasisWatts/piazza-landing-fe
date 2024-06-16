@@ -11,6 +11,7 @@ import Close from '@/components/close'
 import Description from '@/components/description'
 import IntroBfLanch from '@/components/intro-bflaunch'
 import CloseBfLaunch from '@/components/close-bflaunch'
+import Features from '@/components/features'
 
 export default function Home() {
   return (
@@ -18,9 +19,12 @@ export default function Home() {
       {/* <Intro /> */}
       <IntroBfLanch />
       <Description />
-      <Hook1 />
-      <Hook2 />
-      <Hook3 />
+      <div className="bg-gray-100 py-[7rem]">
+        <Hook1 />
+        <Hook2 />
+        <Hook3 />
+      </div>
+      <Features />
       {/* <Close /> */}
       <CloseBfLaunch />
     </>

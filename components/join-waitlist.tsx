@@ -1,5 +1,8 @@
 'use client'
 
+// const WAITLIST_SERVER_URL = "https://piazza.run" // prod
+const WAITLIST_SERVER_URL = "http://localhost:4416" // dev
+
 import ButtonRequestJoinWaitlist from "@/components/button-requestJoinWaitlist"
 import ButtonRouteHome from "@/components/button-routeHome"
 import PiazzaLogo from '@/components/ui/logo-piazza';
@@ -32,7 +35,7 @@ export default function JoinWaitlist() {
             setToggleAlertEmailFormat(false)
             if (checkPrivacyPolicy && checkReceiveEmail) { // request
                 setToggleAlertAgreement(false)
-                axios.get("https://piazza.run/api/waitlist?e=" + emailtext).then((res) => {
+                axios.get(WAITLIST_SERVER_URL + "/api/waitlist?e=" + emailtext).then((res) => {
                     window.location.href = "/"
                 })
             } else {

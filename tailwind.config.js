@@ -11,9 +11,8 @@ module.exports = {
         violet: '#D8B7F7',
         pink: '#FAC0D8',
         brown: '#E38F69',
-        lightPink: '#FBF8FA',
         gray: {
-          100: '#FBFBFB',
+          100: '#F3F3F3',
           200: '#EAEAEA',
           300: '#DFDFDF',
           400: '#999999',

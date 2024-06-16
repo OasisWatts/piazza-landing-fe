@@ -1,6 +1,8 @@
 'use client'
 
-export default function Hook2() {
+import HomeTagPng from '@/public/images/home-tag.png'
+import Image from 'next/image'
+export default function Hook3() {
     return (
         <section className="relative">
             {/* Section content */}
@@ -16,10 +18,7 @@ export default function Hook2() {
                 </div >
                 {/* Img */}
                 < div className="md:w-full" data-aos="zoom-y-out">
-                    <video loop controls autoPlay playsInline muted className='max-md:mx-auto md:ml-auto md:w-img w-smimg md:h-img h-smimg' >
-                        <source src="/videos/home-tags.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    <Image className='md:w-img w-smimg max-md:mx-auto md:ml-auto' src={HomeTagPng} alt="Community Post Image" />
                 </div >
             </div >
         </section>

@@ -5,7 +5,7 @@ import LogoTwitter from "./logo-twitter";
 export default function Footer() {
   return (
     <footer>
-      <div className="bg-lightPink p-7 pt-10 flex flex-col items-center">
+      <div className="bg-gray-100 p-7 pt-10 flex flex-col items-center">
         <div className="mb-7 flex justify-around relative">
           <div className="mr-10">
             <LogoDiscord size={20} fill="#666666" /></div>
