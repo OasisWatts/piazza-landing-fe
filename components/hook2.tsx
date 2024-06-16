@@ -10,7 +10,7 @@ export default function Hook2() {
             < div className="mt-[5rem] md:mt-[10rem] mx-5 md:mx-auto max-w-3xl md:flex md:flex-row-reverse md:items-center" >
                 {/* Hook */}
                 < div className="md:w-full mx-auto mb-10 md:mb-0" >
-                    <div className="md:text-right text-2xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
+                    <div className="font-bold md:text-right text-2xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
                         Do you ever feel like discussing while browsing a webpage?
                     </div>
                     <div className="md:text-right text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="300">

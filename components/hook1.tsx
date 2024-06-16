@@ -5,7 +5,7 @@ export default function Hook1() {
         <section className="relative">
             {/* Section content */}
             <div className="mt-[5rem] md:mt-[10rem] mx-5 md:mx-auto max-w-3xl" >
-                <div className="md:text-center text-2xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
+                <div className="font-bold md:text-center text-2xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
                     Do you use a separate app to write and share about web pages?
                 </div>
                 <div className="md:text-center text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="300">
