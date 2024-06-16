@@ -1,7 +1,7 @@
 'use client'
 
-// const WAITLIST_SERVER_URL = "https://piazza.run" // prod
-const WAITLIST_SERVER_URL = "http://localhost:4416" // dev
+const WAITLIST_SERVER_URL = "https://piazza.run" // prod
+// const WAITLIST_SERVER_URL = "http://localhost:4416" // dev
 
 import ButtonRequestJoinWaitlist from "@/components/button-requestJoinWaitlist"
 import ButtonRouteHome from "@/components/button-routeHome"
