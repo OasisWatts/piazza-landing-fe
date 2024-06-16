@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Home',
+  title: 'Piazza - Welcome to Piazza!',
   description: 'Write & Share Anything within Web Pages on Piazza',
 }
 

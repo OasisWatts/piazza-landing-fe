@@ -1,7 +1,7 @@
 import JoinWaitlist from "@/components/join-waitlist"
 
 export const metadata = {
-    title: 'Join Waitlist',
+    title: 'Piazza - Join Waitlist',
     description: 'Join Waitlist to get Piazza in the future!',
 }
 
