@@ -35,7 +35,7 @@ export default function Features() {
                             <div className='font-bold text-center px-1 pb-5 text-base text-gray-800 md:text-2xl md:pt-5'>
                                 Write memos on a web page
                             </div>
-                            <Image src={featureMemoImg} alt="Feature Image1" />
+                            <Image src={featureMemoImg} alt="Feature Image1" priority />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -43,7 +43,7 @@ export default function Features() {
                             <div className='font-bold text-center px-1 pb-5 text-base text-gray-800 md:text-2xl md:pt-5'>
                                 Save a web page with tags
                             </div>
-                            <Image src={featureTagsImg} alt="Feature Image1" />
+                            <Image src={featureTagsImg} alt="Feature Image1" priority />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -51,7 +51,7 @@ export default function Features() {
                             <div className='font-bold text-center px-1 pb-5 text-base text-gray-800 md:text-2xl md:pt-5'>
                                 Discuss about the web pages
                             </div>
-                            <Image src={featureCommunityImg} alt="Feature Image1" />
+                            <Image src={featureCommunityImg} alt="Feature Image1" priority />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -59,7 +59,7 @@ export default function Features() {
                             <div className='font-bold text-center px-1 pb-5 text-base text-gray-800 md:text-2xl md:pt-5'>
                                 Look up web pages with tags and memos
                             </div>
-                            <Image src={featureHomeImg} alt="Feature Image1" />
+                            <Image src={featureHomeImg} alt="Feature Image1" priority />
                         </div>
                     </SwiperSlide>
                 </Swiper>
