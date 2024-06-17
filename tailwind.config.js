@@ -8,9 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        violet: '#D8B7F7',
-        pink: '#FAC0D8',
-        brown: '#E38F69',
+        violet: '#D8B7F7', //rgb(216, 183, 247)
+        pink: '#FAC0D8',//rgb(250, 192, 216)
+        brown: '#E38F69',//rgb(227, 143, 105)
+        darkviolet: '#cb9ff5',
+        darkpink: '#f38eb8',
+        lightviolet: '#c99af5',
+        lightbrown: '#f6d9cb',
         gray: {
           100: '#F3F3F3',
           200: '#EAEAEA',
@@ -103,11 +107,12 @@ module.exports = {
       width: {
         btn: '16rem',
         lbtn: '20rem',
-        img: '15rem',
-        smimg: '10rem'
+        img: '17rem',
+        smimg: '12rem'
       },
       height: {
         btn: '3rem',
+        lbtn: '4rem',
         img: '33rem',
         smimg: '23rem'
       },

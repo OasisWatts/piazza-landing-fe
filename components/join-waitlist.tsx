@@ -1,7 +1,5 @@
 'use client'
 
-const WAITLIST_SERVER_URL = "https://piazza.run" // prod
-// const WAITLIST_SERVER_URL = "http://localhost:4416" // dev
 
 import ButtonRequestJoinWaitlist from "@/components/button-requestJoinWaitlist"
 import ButtonRouteHome from "@/components/button-routeHome"
@@ -9,6 +7,7 @@ import PiazzaLogo from '@/components/ui/logo-piazza';
 import { useState } from "react";
 import Checkbox from "./ui/checkbox";
 import axios from "axios";
+import { WAITLIST_SERVER_URL } from "./env";
 
 export default function JoinWaitlist() {
     const [emailtext, setEmailText] = useState<string>("")

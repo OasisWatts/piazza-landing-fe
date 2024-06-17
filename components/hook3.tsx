@@ -1,24 +1,62 @@
 'use client'
 
-import HomeTagPng from '@/public/images/home-tag.png'
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+import BrowserImg from '@/public/images/browser.png'
+import Community0Img from '@/public/images/community-0.png'
+import Community1Img from '@/public/images/community-1.png'
+import PostImg from '@/public/images/post.png'
+
+
 import Image from 'next/image'
 export default function Hook3() {
     return (
         <section className="relative">
             {/* Section content */}
-            < div className="mt-[5rem] md:mt-[10rem] mx-5 md:mx-auto max-w-3xl md:flex md:flex-row md:items-center" >
-                {/* Hook */}
-                < div className="md:w-full mx-auto mb-10 md:mb-0" >
-                    <div className="font-bold md:text-right text-2xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
-                        Do you ever forget what a web page was about after saving it with a bookmark?
-                    </div>
-                    <div className="md:text-right text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="300">
-                        Piazza allows you to save web pages with tags and memos.
-                    </div>
-                </div >
-                {/* Img */}
-                < div className="md:w-full" data-aos="zoom-y-out">
-                    <Image className='md:w-img w-smimg max-md:mx-auto md:ml-auto' src={HomeTagPng} alt="Community Post Image" />
+            <div className="mt-[5rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl" >
+                <div className="text-gray-800 font-extrabold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem]">
+                    A community right near you
+                </div>
+                <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
+                    Share your thoughts with people immediately after using web pages. We are planning to develope auto-created communities based on memos and tags. This would allow you to connect with people who share your interests without having to search for communities. As more people use the app, the precision of these communities could improve.
+                </div>
+                < div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out">
+                    <Swiper
+                        modules={[Navigation, Pagination, Autoplay]}
+                        spaceBetween={100}
+                        slidesPerView={1}
+                        navigation
+                        pagination={{ clickable: true }}
+                        autoplay={{ delay: 2000, disableOnInteraction: false }}
+                        loop={true}
+                    >
+                        <SwiperSlide>
+                            <div className='px-[4rem] pt-[4rem]'>
+                                <Image className='mx-auto' src={BrowserImg} alt="Feature Image1" priority />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='px-[4rem] pt-[4rem]'>
+                                <Image className='mx-auto' src={Community0Img} alt="Feature Image2" priority />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='px-[4rem] pt-[4rem]'>
+                                <Image className='mx-auto' src={Community1Img} alt="Feature Image3" priority />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className='px-[4rem] pt-[4rem]'>
+                                <Image className='mx-auto' src={PostImg} alt="Feature Image4" priority />
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
                 </div >
             </div >
         </section>

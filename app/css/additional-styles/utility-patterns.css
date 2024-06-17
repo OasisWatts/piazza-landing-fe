@@ -32,7 +32,7 @@
 }
 
 .btn {
-    @apply w-full md:w-btn h-btn;
+    @apply w-full w-btn h-btn;
 }
 
 .btn-sm {
