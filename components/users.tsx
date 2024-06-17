@@ -34,10 +34,10 @@ export default function Users() {
                         </div>
                         <div className="bg-white p-3 rounded-lg">
                             <div className="text-base">
-                                <p className="inline text-darkpink">▶</p> You can then neatly organize a lot of reference web pages.
+                                <p className="inline text-darkpink">▶</p> You can neatly organize a lot of reference web pages.
                             </div>
                             <div className="text-base">
-                                <p className="inline text-darkpink">▶</p> You can write memos about their new ideas related to the reference pages.
+                                <p className="inline text-darkpink">▶</p> You can write memos about your new ideas related to the reference pages.
                             </div>
                         </div>
                     </div>
@@ -50,10 +50,10 @@ export default function Users() {
                         </div>
                         <div className="bg-white p-3 rounded-lg">
                             <div className="text-base">
-                                <p className="inline text-darkviolet">▶</p> You can save web pages with important information directly in their browser.
+                                <p className="inline text-darkviolet">▶</p> You can save web pages with important information directly in your browser.
                             </div>
                             <div className="text-base">
-                                <p className="inline text-darkviolet">▶</p> You can write down their insights immediately as you pop into their heads while reading a web page.
+                                <p className="inline text-darkviolet">▶</p> You can write down their insights immediately as they pop into your heads while reading a web page.
                             </div>
                         </div>
                     </div>
