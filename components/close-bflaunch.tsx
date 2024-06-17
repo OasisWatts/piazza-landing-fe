@@ -18,9 +18,7 @@ export default function CloseBfLaunch() {
                     <div className="text-xl md:text-2xl  mb-[2rem] md:mb-[5rem] text-center" data-aos="zoom-y-out" data-aos-delay="300">
                         Comming Soon in<br /><p className="round-underline round-underline-pink">  July to August</p>
                     </div>
-                    <div className="text-base text-center md:text-xl text-gray-600 mb-[1rem] md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">
-                        When you join the waitlist,<br /> you get<p className="font-extrabold text-black inline"> 6 months of free access </p>to paid features upon their release.
-                    </div>
+                    <div className="md:text-lg text-base md:text-center font-semibold text-gray-700 mb-2" data-aos="zoom-y-out">It's free!</div>
                     <div className="max-w-xs mx-auto md:max-w-none content-start flex flex-col max-md:text-center" data-aos="zoom-y-out" data-aos-delay="300">
                         <ButtonRouteWaitlist />
                     </div>

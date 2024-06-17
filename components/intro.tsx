@@ -30,6 +30,7 @@ export default function Intro() {
                     <div className="text-lg md:text-2xl font-semibold text-gray-700 mb-[1rem] md:mb-[3rem]">
                         <div className="round-underline">Everything</div> you need to make your <p className="round-underline round-underline-pink"> web searches more efficient</p>
                     </div>
+                    <div className="md:text-lg text-base md:text-center font-semibold text-gray-700 mb-2" data-aos="zoom-y-out">It's free!</div>
                     <div className="max-w-xs md:mx-auto md:max-w-none content-start flex flex-col md:flex-row md:justify-center md:items-center" data-aos="zoom-y-out" data-aos-delay="300">
                         <ButtonDownload />
                         <div className="md:mr-[1rem] md:ml-auto mr-auto mb-4 md:mb-0 text-gray-600 font-medium text-lg"> For iOS, </div>
