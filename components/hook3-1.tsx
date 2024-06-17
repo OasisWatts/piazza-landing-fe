@@ -26,41 +26,43 @@ export default function Hook3() {
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[5rem] md:text-center" data-aos="zoom-y-out">
                     <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">Q. </p>Have you ever<p className="round-underline round-underline-lightbrown text-black"> feel like sharing what you read</p> on the web pages?
                 </div>
-                <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
-                    <p className="round-underline round-underline-lightbrown text-black"> Share your thoughts with people immediately </p>after using web pages. You can communicate with people about the web pages you're visiting.
+                <div className='md:flex md:flex-row md:items-center'>
+                    <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
+                        <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">A.</p><p className="round-underline round-underline-lightbrown text-black">Share your thoughts with people immediately </p>after using web pages. You can communicate with people about the web pages you're visiting.
+                    </div>
+                    <div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">
+                        <Swiper
+                            modules={[Navigation, Pagination, Autoplay]}
+                            spaceBetween={100}
+                            slidesPerView={1}
+                            navigation
+                            pagination={{ clickable: true }}
+                            autoplay={{ delay: 2000, disableOnInteraction: false }}
+                            loop={true}
+                        >
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={BrowserImg} alt="Feature Image1" priority />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={Community0Img} alt="Feature Image2" priority />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={Community1Img} alt="Feature Image3" priority />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={PostImg} alt="Feature Image4" priority />
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div >
                 </div>
-                < div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">
-                    <Swiper
-                        modules={[Navigation, Pagination, Autoplay]}
-                        spaceBetween={100}
-                        slidesPerView={1}
-                        navigation
-                        pagination={{ clickable: true }}
-                        autoplay={{ delay: 2000, disableOnInteraction: false }}
-                        loop={true}
-                    >
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={BrowserImg} alt="Feature Image1" priority />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={Community0Img} alt="Feature Image2" priority />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={Community1Img} alt="Feature Image3" priority />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={PostImg} alt="Feature Image4" priority />
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
-                </div >
             </div >
         </section>
     )
