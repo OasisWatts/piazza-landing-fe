@@ -18,7 +18,7 @@ export default function CloseBfLaunch() {
                     <div className="text-xl md:text-2xl  mb-[2rem] md:mb-[5rem] text-center" data-aos="zoom-y-out" data-aos-delay="300">
                         Comming Soon in<br /><p className="round-underline round-underline-pink">  July to August</p>
                     </div>
-                    <div className="md:text-lg text-base md:text-center font-semibold text-gray-700 mb-2" data-aos="zoom-y-out">It's free!</div>
+                    <div className="md:text-lg text-base text-center font-semibold text-gray-700 mb-2" data-aos="zoom-y-out">It's free!</div>
                     <div className="max-w-xs mx-auto md:max-w-none content-start flex flex-col max-md:text-center" data-aos="zoom-y-out" data-aos-delay="300">
                         <ButtonRouteWaitlist />
                     </div>
