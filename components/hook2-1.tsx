@@ -12,11 +12,11 @@ export default function Hook2() {
                     Write memos immediately while browsing
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[5rem] md:text-center" data-aos="zoom-y-out">
-                    <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">Q. </p>While browsing, have you ever <p className="round-underline round-underline-lightviolet font-semibold text-black">had an idea or something to jot down in a memo?</p> Do you use a separate app to take notes about web pages?
+                    <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">Q. </p>While browsing, have you ever <p className="round-underline round-underline-lightviolet text-black">had an idea or something to jot down in a memo?</p> Do you use a separate app to take notes about web pages?
                 </div>
                 <div className='md:flex md:flex-row-reverse md:items-center'>
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">
-                        <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">A. </p>With Piazza, You can <p className="round-underline round-underline-lightviolet font-semibold text-black">leave memos directly without switching to another app.</p>
+                        <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">A. </p>With Piazza, You can <p className="round-underline round-underline-lightviolet text-black">leave memos directly without switching to another app.</p>
                     </div>
                     < div className="md:w-full" data-aos="zoom-y-out" data-aos-delay="300">
                         <Image className='md:w-img w-smimg max-md:mx-auto' src={BrowserMemoImg} alt="Community Post Image" />

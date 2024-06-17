@@ -24,10 +24,10 @@ export default function Hook3() {
                     A community right near you
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[5rem] md:text-center" data-aos="zoom-y-out">
-                    <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">Q. </p>Have you ever<p className="round-underline round-underline-lightbrown font-semibold text-black"> feel like sharing what you read</p> on the web pages?
+                    <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">Q. </p>Have you ever<p className="round-underline round-underline-lightbrown text-black"> feel like sharing what you read</p> on the web pages?
                 </div>
                 <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
-                    <p className="round-underline round-underline-lightbrown font-semibold text-black"> Share your thoughts with people immediately </p>after using web pages. We are planning to develope auto-created communities based on memos and tags. This would allow you to connect with people who share your interests without having to search for communities. As more people use the app, the precision of these communities could improve.
+                    <p className="round-underline round-underline-lightbrown text-black"> Share your thoughts with people immediately </p>after using web pages. We are planning to develope auto-created communities based on memos and tags. This would allow you to connect with people who share your interests without having to search for communities. As more people use the app, the precision of these communities could improve.
                 </div>
                 < div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">
                     <Swiper
