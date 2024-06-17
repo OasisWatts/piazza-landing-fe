@@ -20,13 +20,13 @@ export default function Hook3() {
         <section className="relative">
             {/* Section content */}
             <div className="mt-[5rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl" >
-                <div className="text-gray-800 font-extrabold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem]">
+                <div className="text-gray-800 font-extrabold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
                     A community right near you
                 </div>
                 <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
                     Share your thoughts with people immediately after using web pages. We are planning to develope auto-created communities based on memos and tags. This would allow you to connect with people who share your interests without having to search for communities. As more people use the app, the precision of these communities could improve.
                 </div>
-                < div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out">
+                < div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">
                     <Swiper
                         modules={[Navigation, Pagination, Autoplay]}
                         spaceBetween={100}

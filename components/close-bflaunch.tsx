@@ -15,10 +15,10 @@ export default function CloseBfLaunch() {
                 <div className="md:text-center">
                     <h1 className="text-2xl md:text-4xl leading-tighter tracking-tighter mb-[2rem] md:mb-[5rem] text-center font-extrabold" data-aos="zoom-y-out">
                         Enhance your <p className="round-underline"> web search experience</p> with Piazza</h1>
-                    <div className="text-xl md:text-2xl  mb-[2rem] md:mb-[5rem] text-center">
+                    <div className="text-xl md:text-2xl  mb-[2rem] md:mb-[5rem] text-center" data-aos="zoom-y-out" data-aos-delay="300">
                         Comming Soon in<br /><p className="round-underline round-underline-pink">  July to August</p>
                     </div>
-                    <div className="text-base text-center md:text-xl text-gray-600 mb-[1rem] md:mb-[3rem]">
+                    <div className="text-base text-center md:text-xl text-gray-600 mb-[1rem] md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">
                         When you join the waitlist,<br /> you get<p className="font-extrabold text-black inline"> 6 months of free access </p>to paid features upon their release.
                     </div>
                     <div className="max-w-xs mx-auto md:max-w-none content-start flex flex-col max-md:text-center" data-aos="zoom-y-out" data-aos-delay="300">
