@@ -27,7 +27,7 @@ export default function IntroBfLanch() {
                 </div>
                 <div className="md:text-center">
                     <h1 className="text-3xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-gray-500" data-aos="zoom-y-out">
-                        <p className="text-black inline">A Mobile Browser</p><br /> Designed for <p className="text-black inline">Information Seekers</p> on the Internet</h1>
+                        <p className="text-black inline">A Mobile Browser</p><br /> Designed for <p className="text-black inline">Creative thinkers</p></h1>
                     <div className="text-lg md:text-2xl font-semibold text-gray-700 mb-[1rem] md:mb-[3rem]" data-aos="zoom-y-out">
                         <div className="round-underline">Everything</div> you need to make your <p className="round-underline round-underline-pink"> web searches more efficient</p> in one app.
                     </div>

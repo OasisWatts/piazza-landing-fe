@@ -4,9 +4,9 @@ export const metadata = {
 }
 
 import Intro from '@/components/intro'
-import Hook1 from '@/components/hook1'
-import Hook2 from '@/components/hook2'
-import Hook3 from '@/components/hook3'
+import Hook1 from '@/components/hook1-1'
+import Hook2 from '@/components/hook2-1'
+import Hook3 from '@/components/hook3-1'
 import Close from '@/components/close'
 import Description from '@/components/description'
 import IntroBfLanch from '@/components/intro-bflaunch'
