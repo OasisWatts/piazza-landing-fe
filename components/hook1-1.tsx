@@ -23,11 +23,11 @@ export default function Hook1() {
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[2rem] md:text-center" data-aos="zoom-y-out">
                     <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">Q. </p>Have you found any web pages that you'd like to save?<br />
-                    You might sometimes use bookmarks or take screenshots to save information, but <p className='round-underline round-underline-lightbrown  text-black inline'>dealing with numerous web pages, remembering their contents, and quickly finding the specific page you need</p> can be quite challenging.
+                    You might sometimes use bookmarks or take screenshots to save information, but <p className='round-underline round-underline-lightbrown text-black inline'>dealing with numerous web pages, remembering their contents, and quickly finding the specific page you need</p> might bother you.
                 </div>
                 <div className='md:flex md:flex-row md:items-center'>
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="300">
-                        <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">A. </p><p className="round-underline round-underline-lightbrown  text-black">Use hashtags instead</p> to save details more efficiently. You can search for them easier by using tags.
+                        <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">A. </p><p className="round-underline round-underline-lightbrown text-black">Use hashtags instead</p> to save details more efficiently. You can search for them easier by using tags.
                     </div>
                     <div className='mx-auto px-2 md:px-10 md:w-1/2 max-md:max-w-[21rem]' data-aos="zoom-y-out" data-aos-delay="300">
                         <Swiper
