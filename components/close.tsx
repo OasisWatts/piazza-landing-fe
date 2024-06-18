@@ -18,6 +18,7 @@ export default function Close() {
                         <div className="mb-[1rem] md:mb-[3rem] mt-[3rem] md:mt-[10rem] text-gray-600 text-center text-lg">
                             If you are not Android user, we'll notify you when it's available.
                         </div>
+                        <div className="md:text-lg text-base text-center  text-gray-700 mb-2" data-aos="zoom-y-out">Join the waitlist now! yYou'll get 6 months free once the paid features are updated</div>
                         <ButtonRouteWaitlist />
                     </div>
                 </div>
