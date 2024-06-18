@@ -13,10 +13,10 @@ export default function Users() {
                         <div className="font-extrabold text-lg sm:text-2xl text-center mb-2 bg-brown rounded-lg text-white">
                             Student
                         </div>
-                        <div className="text-base sm:text-base text-center mb-2 text-gray-500">
+                        <div className="text-base sm:text-base mb-2 text-gray-500">
                             Curious people who love to learn new things on the internet
                         </div>
-                        <div className="bg-white p-3 rounded-lg">
+                        <div className="bg-white rounded-lg">
                             <div className="text-base">
                                 <p className="inline text-brown">▶</p> You can save memos and tags on web pages to organize the information you've learned.
                             </div>
@@ -29,10 +29,10 @@ export default function Users() {
                         <div className="font-extrabold text-lg sm:text-2xl text-center mb-2 bg-darkpink rounded-lg text-white">
                             Designer
                         </div>
-                        <div className="text-base sm:text-base text-center mb-2 text-gray-500">
+                        <div className="text-base sm:text-base mb-2 text-gray-500">
                             People who need to gather references for their work
                         </div>
-                        <div className="bg-white p-3 rounded-lg">
+                        <div className="bg-white rounded-lg">
                             <div className="text-base">
                                 <p className="inline text-darkpink">▶</p> You can neatly organize a lot of reference web pages.
                             </div>
@@ -45,10 +45,10 @@ export default function Users() {
                         <div className="font-extrabold text-lg sm:text-2xl text-center mb-2 bg-darkviolet rounded-lg text-white">
                             Expert
                         </div>
-                        <div className="text-base sm:text-base text-center mb-2 text-gray-500">
+                        <div className="text-base sm:text-base mb-2 text-gray-500">
                             People who need to constantly study their field
                         </div>
-                        <div className="bg-white p-3 rounded-lg">
+                        <div className="bg-white rounded-lg">
                             <div className="text-base">
                                 <p className="inline text-darkviolet">▶</p> You can save web pages with important information directly in your browser.
                             </div>
