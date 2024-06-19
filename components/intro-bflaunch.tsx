@@ -26,12 +26,12 @@ export default function IntroBfLanch() {
                     <PiazzaLogo height="70" />
                 </div>
                 <div className="md:text-center">
-                    <h1 className="text-3xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-gray-500" data-aos="zoom-y-out">
+                    <h1 className="text-3xl md:text-6xl font-extrabold font-urbanist leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-gray-500" data-aos="zoom-y-out">
                         <p className="text-black inline">A Mobile Browser</p><br /> Designed for <p className="text-black inline">Creative thinkers</p></h1>
-                    <div className="text-lg md:text-2xl font-semibold text-gray-700 mb-[1rem] md:mb-[3rem]" data-aos="zoom-y-out">
-                        <div className="round-underline">Everything</div> you need to make your <p className="round-underline round-underline-pink"> web searches more efficient</p>
+                    <div className="text-lg md:text-2xl font-urbanist text-gray-700 mb-[1rem] md:mb-[3rem]" data-aos="zoom-y-out">
+                        Everything you need to make your web searches more efficient
                     </div>
-                    <div className="md:text-lg text-base md:text-center font-semibold text-gray-700 mb-2" data-aos="zoom-y-out">It's free!</div>
+                    <div className="md:text-lg text-base md:text-center text-gray-700 mb-2" data-aos="zoom-y-out">It's free!</div>
                     <div className="max-w-xs md:mx-auto md:max-w-none content-start flex flex-col md:flex-row md:justify-center md:items-center" data-aos="zoom-y-out" data-aos-delay="300">
                         <ButtonRouteWaitlist />
                     </div>

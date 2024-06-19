@@ -8,7 +8,7 @@ export default function Hook2() {
         <section className="relative">
             {/* Section content */}
             <div className="mt-[5rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl" >
-                <div className="text-gray-800 font-extrabold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
+                <div className="text-gray-800 font-bold font-rubik leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
                     {/*Write memos immediately while browsing*/}
                     The fastest way to write memos
                 </div>

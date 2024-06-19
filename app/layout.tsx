@@ -1,11 +1,21 @@
 import './css/style.css'
 
-import { Open_Sans } from 'next/font/google'
+import { Nunito_Sans, Urbanist, Rubik } from 'next/font/google'
 
-const roboto = Open_Sans({
+const nunito = Nunito_Sans({
   subsets: ['latin'],
-  variable: '--font-roboto',
+  variable: '--font-nunito_sans',
   display: 'swap'
+})
+const urbanist = Urbanist({
+  subsets: ['latin'],
+  variable: '--font-urbanist',
+  display: 'swap',
+})
+const rubik = Rubik({
+  subsets: ['latin'],
+  variable: '--font-rubik',
+  display: 'swap',
 })
 
 export const metadata = {
@@ -20,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} font-roboto antialiased bg-white text-gray-900 tracking-tight`}>
+      <body className={`${nunito.variable} ${urbanist.variable} ${rubik.variable} font-nunito antialiased bg-white text-gray-900 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
         </div>

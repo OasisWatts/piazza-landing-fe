@@ -5,12 +5,12 @@ export default function Users() {
     return (
         <section className='relative'>
             <div className="mt-[5rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl">
-                <div className='md:text-center text-gray-800 font-extrabold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[2rem] md:mb-[3rem]' data-aos="zoom-y-out">
+                <div className='md:text-center text-gray-800 font-rubik font-bold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[2rem] md:mb-[3rem]' data-aos="zoom-y-out">
                     Who can gain the most benefit from the Piazza?
                 </div>
                 <div className="flex md:flex-row max-md:flex-col justify-between w-full" data-aos="zoom-y-out">
                     <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2">
-                        <div className="font-extrabold text-lg sm:text-2xl text-center mb-2 bg-brown rounded-lg text-white">
+                        <div className="font-rubik font-bold text-lg sm:text-2xl text-center mb-2 bg-brown rounded-lg text-white">
                             Students
                         </div>
                         <div className="text-base sm:text-base mb-2 text-gray-500">
@@ -26,7 +26,7 @@ export default function Users() {
                         </div>
                     </div>
                     <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2">
-                        <div className="font-extrabold text-lg sm:text-2xl text-center mb-2 bg-darkpink rounded-lg text-white">
+                        <div className="font-rubik font-bold  text-lg sm:text-2xl text-center mb-2 bg-darkpink rounded-lg text-white">
                             Designers
                         </div>
                         <div className="text-base sm:text-base mb-2 text-gray-500">
@@ -42,7 +42,7 @@ export default function Users() {
                         </div>
                     </div>
                     <div className="rounded-lg md:w-[30%] p-2 md:p-3 border-gray-300 border-2">
-                        <div className="font-extrabold text-lg sm:text-2xl text-center mb-2 bg-darkviolet rounded-lg text-white">
+                        <div className="font-rubik font-bold text-lg sm:text-2xl text-center mb-2 bg-darkviolet rounded-lg text-white">
                             Experts
                         </div>
                         <div className="text-base sm:text-base mb-2 text-gray-500">
