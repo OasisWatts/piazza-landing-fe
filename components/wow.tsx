@@ -63,7 +63,7 @@ export default function Wow() {
                     Bookmarking or taking screenshots are not ideal for
                     <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) managing numerous web pages<br /> (2) remembering their contents<br />(3) quickly finding the specific page you need</p>
 
-                    <p className="font-bold text-lg md:text-2xl mt-10">Try using hashtags instead!</p>
+                    <p className="font-bold text-lg md:text-2xl mt-10">Try using hashtags instead.</p>
                     Save web pages with more details and find them easily using tags.
                 </div>
                 <div className='mx-auto px-2 md:px-10 md:w-1/2 max-md:max-w-[21rem]' data-aos="zoom-y-out" data-aos-delay="300">
@@ -124,9 +124,9 @@ export default function Wow() {
             </section>
             <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:flex md:flex-row-reverse md:items-center md:mx-auto max-w-6xl">
                 <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">
-                    Ever had an idea while browsing and needed to jot it down?<br className='max-md:hidden' /> Do you use a separate app to write notes about web pages?
-                    <p className="font-bold text-lg md:text-2xl">Leave memos directly on the web page! </p>
-                    No need to switch apps. Save web pages with your notes.
+                    Ever had an idea while browsing and needed to jot it down?<br />
+                    <p className="font-bold text-lg md:text-2xl">Leave memos directly on the web page. </p>
+                    No need to switch apps to write notes about webpages. Save webpages with your notes.
                 </div>
                 < div className="md:w-full" data-aos="zoom-y-out" data-aos-delay="300">
                     <Image className='md:w-img w-smimg max-md:mx-auto' src={BrowserMemoImg} alt="Community Post Image" />
@@ -160,8 +160,8 @@ export default function Wow() {
             </section>
             <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:flex md:flex-row-reverse md:items-center md:mx-auto max-w-6xl">
                 <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
-                    <p className="font-bold text-lg md:text-2xl">Share your thoughts while browsing. </p>
-                    Communicate without switching apps.
+                    <p className="font-bold text-lg md:text-2xl">Share web page and your thoughts while browsing. </p>
+                    No need to switch apps to communicate.
                 </div>
                 <div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">
                     <Swiper
