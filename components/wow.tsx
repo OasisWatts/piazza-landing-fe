@@ -100,8 +100,8 @@ export default function Wow() {
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
                                 <p className="text-gray-400">Write Notes</p>
-                                <div className="inline font-black text-transparent border-2 rounded-sm px-2">
-                                    "DIRECTLY ON WEBPAGE"</div>
+                                <div className="inline text-white">
+                                    ▢▢▢▢▢▢▢▢ ▢▢ ▢▢▢▢▢▢▢▢</div>
                                 <p className="text-gray-400">In Browser</p>
                             </div>
                         </div>
@@ -137,8 +137,8 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
-                                <div className="inline font-black border-2 text-transparent rounded-sm px-2">
-                                    "COMMUNICATE"</div>
+                                <div className="inline text-white">
+                                    ▢▢▢▢▢▢▢▢▢▢▢</div>
                                 <p className="text-gray-400">About Webpages In Your Browser</p>
                             </div>
                         </div>
