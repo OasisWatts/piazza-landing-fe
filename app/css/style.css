@@ -9,8 +9,8 @@
 @import 'additional-styles/checkbox.css';
 @import 'additional-styles/video.css';
 @import 'additional-styles/swiper.css';
-@import 'additional-styles/text-style.css';
-
+@import 'additional-styles/hightlights.css';
+@import 'additional-styles/scroll-effect.css';
 @import 'tailwindcss/utilities';
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */

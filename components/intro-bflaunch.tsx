@@ -20,12 +20,12 @@ export default function IntroBfLanch() {
                 <PiazzaLogo height="35" />
             </div>
             {/* Intro content */}
-            <div className="pt-5 md:pt-20 md:mx-auto max-w-5xl px-5">
+            <div className="pt-5 md:pt-20 md:mx-auto max-w-6xl px-5 min-h-[100vh] flex items-center justify-center">
                 {/* Section header */}
                 <div className="mb-[4rem] max-md:w-0 max-md:h-0" data-aos="zoom-y-out">
                     <PiazzaLogo height="70" />
                 </div>
-                <div className="md:text-center">
+                <div className="md:text-center my-auto">
                     <h1 className="text-3xl md:text-6xl font-extrabold font-urbanist leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-gray-500" data-aos="zoom-y-out">
                         <p className="text-black inline">A Mobile Browser</p><br /> Designed for <p className="text-black inline">Creative thinkers</p></h1>
                     <div className="text-lg md:text-2xl font-urbanist text-gray-700 mb-[1rem] md:mb-[3rem]" data-aos="zoom-y-out">

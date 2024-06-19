@@ -14,7 +14,7 @@ export default function Intro() {
         axios.get(WAITLIST_SERVER_URL + "/api/visit")
     })
     return (
-        <section className="relative">
+        <section className="relative h-[100vh]">
             <div className="absolute top-5 right-5 md:w-0 md:h-0" data-aos="zoom-y-out">
                 <PiazzaLogo height="35" />
             </div>
@@ -28,7 +28,7 @@ export default function Intro() {
                     <h1 className="text-3xl md:text-6xl font-urbanist font-extrabold leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-gray-500" data-aos="zoom-y-out">
                         <p className="text-black inline">A Mobile Browser</p><br /> Designed for <p className="text-black inline">Creative thinkers</p></h1>
                     <div className="text-lg md:text-2xl font-semibold text-gray-700 mb-[1rem] md:mb-[3rem]">
-                        Everythingyou need to make your web searches more efficient
+                        Everything you need to make your web searches more efficient
                     </div>
                     <div className="md:text-lg text-base md:text-center text-gray-700 mb-2" data-aos="zoom-y-out">It's free!</div>
                     <div className="max-w-xs md:mx-auto md:max-w-none content-start flex flex-col md:flex-row md:justify-center md:items-center" data-aos="zoom-y-out" data-aos-delay="300">

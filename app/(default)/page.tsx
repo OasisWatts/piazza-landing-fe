@@ -13,10 +13,10 @@ import IntroBfLanch from '@/components/intro-bflaunch'
 import CloseBfLaunch from '@/components/close-bflaunch'
 import Users from '@/components/users'
 import SumUp from '@/components/sumup'
+import Wow from '@/components/wow'
 
 const radialGradient = {
   width: "100vw",
-  paddingBottom: "5rem",
   background:
     "radial-gradient(farthest-side at bottom right,rgba(227, 143, 105, 0.5), transparent 50%),radial-gradient(farthest-side at  left,rgba(216, 183, 247, 0.5), transparent 50%),radial-gradient( farthest-corner at top right,rgba(227, 143, 105, 0.5), transparent 30%)"
 }
@@ -27,9 +27,10 @@ export default function Home() {
         {/* <Intro /> */}
         <IntroBfLanch />
         {/* <Description /> */}
-        <Hook1 />
+        <Wow />
+        {/* <Hook1 />
         <Hook2 />
-        <Hook3 />
+        <Hook3 /> */}
       </div>
       <SumUp />
       <Users />
