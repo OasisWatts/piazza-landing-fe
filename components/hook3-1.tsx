@@ -21,7 +21,7 @@ export default function Hook3() {
             {/* Section content */}
             <div className="mt-[5rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl" >
                 <div className="text-gray-800 font-extrabold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem]" data-aos="zoom-y-out">
-                    The easiest way to share thoughts about web pages
+                    The easiest way to share thoughts
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[5rem] md:text-center" data-aos="zoom-y-out">
                     Feel like sharing what you read on the web?

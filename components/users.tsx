@@ -6,7 +6,7 @@ export default function Users() {
         <section className='relative'>
             <div className="mt-[5rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl">
                 <div className='md:text-center text-gray-800 font-extrabold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[2rem] md:mb-[3rem]' data-aos="zoom-y-out">
-                    Who can gain the most benefit from the piazza?
+                    Who can gain the most benefit from the Piazza?
                 </div>
                 <div className="flex md:flex-row max-md:flex-col justify-between w-full" data-aos="zoom-y-out">
                     <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2">
@@ -50,10 +50,10 @@ export default function Users() {
                         </div>
                         <div className="bg-white rounded-lg">
                             <div className="text-base">
-                                <p className="inline text-darkviolet">▶</p> Save web pages with important information directly in your browser.
+                                <p className="inline text-darkviolet">▶</p> Save web pages with detailed information directly in your browser.
                             </div>
                             <div className="text-base">
-                                <p className="inline text-darkviolet">▶</p> Write down insights immediately as they come to mind while reading a web page.
+                                <p className="inline text-darkviolet">▶</p> Write down insights immediately as they come to mind.
                             </div>
                         </div>
                     </div>
