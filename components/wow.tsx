@@ -39,7 +39,7 @@ export default function Wow() {
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
                                 <p className="text-gray-400">People Save Webpages</p>
                                 <div className="inline font-semibold text-white">BY BOOKMARKING THEM</div>
-                                <p className="text-gray-400">On Browser</p>
+                                <p className="text-gray-400">In Their Browser</p>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@ export default function Wow() {
                             <div className="text-center text-2xl md:text-4xl text-white mb-20">
                                 <p className="text-gray-500">Save Webpages</p>
                                 <div className="inline font-black">"WITH HASHTAGS"</div>
-                                <p className="text-gray-500">On Browser</p>
+                                <p className="text-gray-500">In Your Browser</p>
                             </div>
                         </div>
                     </div>
@@ -100,9 +100,9 @@ export default function Wow() {
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
                                 <p className="text-gray-400">Write Notes</p>
-                                <div className="inline font-semibold text-white border-2 text-transparent rounded-sm px-2">
-                                    Within Webpage</div>
-                                <p className="text-gray-400">On Browser</p>
+                                <div className="inline font-black text-transparent border-2 rounded-sm px-2">
+                                    "DIRECTLY ON WEBPAGE"</div>
+                                <p className="text-gray-400">In Browser</p>
                             </div>
                         </div>
                     </div>
@@ -114,9 +114,9 @@ export default function Wow() {
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl text-white mb-20">
                                 <p className="text-gray-500">Write Notes</p>
-                                <div className="inline font-semibold text-white border-2 rounded-sm px-2">
-                                    Within Webpage</div>
-                                <p className="text-gray-500">On Browser</p>
+                                <div className="inline text-white font-black">
+                                    "DIRECTLY ON WEBPAGES"</div>
+                                <p className="text-gray-500">In Browser</p>
                             </div>
                         </div>
                     </div>
@@ -137,9 +137,9 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
-                                <div className="inline font-semibold text-white border-2 text-transparent rounded-sm px-2">
-                                    Communicate</div>
-                                <p className="text-gray-400">About Webpages On Browser</p>
+                                <div className="inline font-black border-2 text-transparent rounded-sm px-2">
+                                    "COMMUNICATE"</div>
+                                <p className="text-gray-400">About Webpages In Your Browser</p>
                             </div>
                         </div>
                     </div>
@@ -150,9 +150,9 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl text-white mb-20">
-                                <div className="inline font-semibold text-white border-2 rounded-sm px-2">
-                                    Communicate</div>
-                                <p className="text-gray-500">About Webpages On Browser</p>
+                                <div className="inline text-white font-black">
+                                    "COMMUNICATE"</div>
+                                <p className="text-gray-500">About Webpages In Your Browser</p>
                             </div>
                         </div>
                     </div>
