@@ -37,9 +37,8 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
-                                <p className="text-gray-400">People Save Webpages</p>
+                                <p className="text-gray-400">Other Browser Saves Webpages</p>
                                 <div className="inline font-semibold text-white">BY BOOKMARKING THEM</div>
-                                <p className="text-gray-400">In Their Browser</p>
                             </div>
                         </div>
                     </div>
@@ -50,15 +49,14 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl text-white mb-20">
-                                <p className="text-gray-500">Save Webpages</p>
+                                <p className="text-gray-500">The Piazza Browser Saves Webpages</p>
                                 <div className="inline font-black">"WITH HASHTAGS"</div>
-                                <p className="text-gray-500">In Your Browser</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:mx-auto max-w-6xl">
+            <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:justify-center md:mx-auto max-w-6xl md:min-h-[100vh]">
                 <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 md:my-auto" data-aos="zoom-y-out" data-aos-delay="300">
                     Bookmarking or taking screenshots are not ideal for
                     <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) managing numerous web pages<br /> (2) remembering their contents<br />(3) quickly finding the specific page you need</p>
@@ -102,7 +100,7 @@ export default function Wow() {
                                 <p className="text-gray-400">Write Notes</p>
                                 <div className="inline text-white">
                                     ▢▢▢▢▢▢▢▢ ▢▢ ▢▢▢▢▢▢▢▢</div>
-                                <p className="text-gray-400">In Browser</p>
+                                <p className="text-gray-400">In The Piazza Browser</p>
                             </div>
                         </div>
                     </div>
@@ -116,13 +114,13 @@ export default function Wow() {
                                 <p className="text-gray-500">Write Notes</p>
                                 <div className="inline text-white font-black">
                                     "DIRECTLY ON WEBPAGES"</div>
-                                <p className="text-gray-500">In Browser</p>
+                                <p className="text-gray-500">In The Piazza Browser</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:flex md:flex-row-reverse md:items-center md:mx-auto max-w-6xl">
+            <section className="scroll-effect-section-no-effect md:flex md:items-center md:justify-center md:flex md:flex-row-reverse md:mx-auto max-w-6xl md:min-h-[100vh]">
                 <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">
                     Ever had an idea while browsing and needed to jot it down?<br />
                     <p className="font-bold text-lg md:text-2xl">Leave memos directly on the web page. </p>
@@ -139,7 +137,7 @@ export default function Wow() {
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
                                 <div className="inline text-white">
                                     ▢▢▢▢▢▢▢▢▢▢▢</div>
-                                <p className="text-gray-400">About Webpages In Your Browser</p>
+                                <p className="text-gray-400">About Webpages In The Piazza Browser</p>
                             </div>
                         </div>
                     </div>
@@ -152,13 +150,13 @@ export default function Wow() {
                             <div className="text-center text-2xl md:text-4xl text-white mb-20">
                                 <div className="inline text-white font-black">
                                     "COMMUNICATE"</div>
-                                <p className="text-gray-500">About Webpages In Your Browser</p>
+                                <p className="text-gray-500">About Webpages In The Pizza Browser</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:flex md:flex-row-reverse md:items-center md:mx-auto max-w-6xl">
+            <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:flex md:flex-row-reverse md:justify-center md:mx-auto md:min-h-[100vh] max-w-6xl">
                 <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
                     Want to share what you read on the web pages?<br />
                     <p className="font-bold text-lg md:text-2xl">Share web page and your thoughts while browsing. </p>
