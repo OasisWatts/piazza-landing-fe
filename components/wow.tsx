@@ -160,6 +160,7 @@ export default function Wow() {
             </section>
             <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:flex md:flex-row-reverse md:items-center md:mx-auto max-w-6xl">
                 <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
+                    Want to share what you read on the web pages?<br />
                     <p className="font-bold text-lg md:text-2xl">Share web page and your thoughts while browsing. </p>
                     No need to switch apps to communicate.
                 </div>
