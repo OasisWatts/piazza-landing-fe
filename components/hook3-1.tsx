@@ -28,7 +28,7 @@ export default function Hook3() {
                 </div>
                 <div className='md:flex md:flex-row md:items-center'>
                     <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
-                        <p className="font-bold text-lg">Share your thoughts while browsing. </p>
+                        <p className="font-bold text-lg md:text-2xl">Share your thoughts while browsing. </p>
                         Communicate with people without switching to another app.
                     </div>
                     <div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">

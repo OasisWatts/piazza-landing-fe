@@ -17,7 +17,7 @@ export default function Hook2() {
                 </div>
                 <div className='md:flex md:flex-row-reverse md:items-center'>
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">
-                        <p className="font-bold text-lg">Leave memos right on the web page! </p>
+                        <p className="font-bold text-lg md:text-2xl">Leave memos right on the web page! </p>
                         no need to switch to another app.
                     </div>
                     < div className="md:w-full" data-aos="zoom-y-out" data-aos-delay="300">

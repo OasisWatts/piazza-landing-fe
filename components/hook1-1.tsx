@@ -29,7 +29,7 @@ export default function Hook1() {
                 </div>
                 <div className='md:flex md:flex-row md:items-center'>
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="300">
-                        <p className="font-bold text-lg">Use hashtags instead!</p>
+                        <p className="font-bold text-lg md:text-2xl">Use hashtags instead!</p>
                         Save details more efficiently and search for them easier by using tags.
                     </div>
                     <div className='mx-auto px-2 md:px-10 md:w-1/2 max-md:max-w-[21rem]' data-aos="zoom-y-out" data-aos-delay="300">
