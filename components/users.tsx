@@ -18,10 +18,10 @@ export default function Users() {
                         </div>
                         <div className="bg-white rounded-lg">
                             <div className="text-base">
-                                <p className="inline text-brown">▶</p> Save memos and tags on web pages to organize the information you've learned.
+                                <p className="inline text-brown">▶</p> Save memos and tags on web pages to organize the information.
                             </div>
                             <div className="text-base">
-                                <p className="inline text-brown">▶</p> Discuss the web pages you've just visited with others.
+                                <p className="inline text-brown">▶</p> Discuss the pages you've just visited with others.
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ export default function Users() {
                                 <p className="inline text-darkviolet">▶</p> Save web pages with detailed information directly in your browser.
                             </div>
                             <div className="text-base">
-                                <p className="inline text-darkviolet">▶</p> Write down insights immediately as they come to mind.
+                                <p className="inline text-darkviolet">▶</p> Write down insights on web pages as they come to mind.
                             </div>
                         </div>
                     </div>

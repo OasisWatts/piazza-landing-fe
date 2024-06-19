@@ -23,14 +23,14 @@ export default function Hook1() {
                     {/*Use hashtags to organize web pages*/}
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[2rem] md:text-center" data-aos="zoom-y-out">
-                    Have you found any web pages that you'd like to save?<br />
-                    You might sometimes use bookmarks or take screenshots to save information, but they are not for
-                    <p className='inline-block text-left mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) dealing with numerous web pages<br /> (2) remembering their contents<br />(3) quickly finding the specific page you need</p>
+                    Found any web pages that you'd like to save?<br />
+                    You might use bookmarks or screenshots to save information, but they're not ideal for
+                    <p className='inline-block text-left mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) managing numerous web pages<br /> (2) remembering their contents<br />(3) quickly finding the specific page you need</p>
                 </div>
                 <div className='md:flex md:flex-row md:items-center'>
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600" data-aos="zoom-y-out" data-aos-delay="300">
                         <p className="font-bold text-lg md:text-2xl">Try using hashtags instead!</p>
-                        Save web pages with more details and search for them easier by using tags.
+                        Save web pages with more details and find them easily using tags.
                     </div>
                     <div className='mx-auto px-2 md:px-10 md:w-1/2 max-md:max-w-[21rem]' data-aos="zoom-y-out" data-aos-delay="300">
                         <Swiper

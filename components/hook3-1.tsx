@@ -24,12 +24,12 @@ export default function Hook3() {
                     The easiest way to share thoughts
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[5rem] md:text-center" data-aos="zoom-y-out">
-                    Feel like sharing what you read on the web?
+                    Want to share what you read on the web pages?
                 </div>
                 <div className='md:flex md:flex-row md:items-center'>
                     <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
                         <p className="font-bold text-lg md:text-2xl">Share your thoughts while browsing. </p>
-                        Communicate with people without switching to another app.
+                        Communicate without switching apps.
                     </div>
                     <div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">
                         <Swiper

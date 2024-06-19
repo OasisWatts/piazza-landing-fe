@@ -13,12 +13,12 @@ export default function Hook2() {
                     The fastest way to write memos
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[5rem] md:text-center" data-aos="zoom-y-out">
-                    While browsing, have you ever had an idea or something to jot down in a memo?<br className='max-md:hidden' /> Do you use a separate app to take notes about web pages?
+                    Ever had an idea while browsing and needed to jot it down?<br className='max-md:hidden' /> Do you use a separate app to write notes about web pages?
                 </div>
                 <div className='md:flex md:flex-row-reverse md:items-center'>
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">
-                        <p className="font-bold text-lg md:text-2xl">Leave memos right on the web page! </p>
-                        No need to switch to another app. Save web pages with what you want to remember.
+                        <p className="font-bold text-lg md:text-2xl">Leave memos directly on the web page! </p>
+                        No need to switch apps. Save web pages with your notes.
                     </div>
                     < div className="md:w-full" data-aos="zoom-y-out" data-aos-delay="300">
                         <Image className='md:w-img w-smimg max-md:mx-auto' src={BrowserMemoImg} alt="Community Post Image" />
