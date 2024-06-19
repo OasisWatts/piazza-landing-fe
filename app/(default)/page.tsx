@@ -12,6 +12,7 @@ import Description from '@/components/description'
 import IntroBfLanch from '@/components/intro-bflaunch'
 import CloseBfLaunch from '@/components/close-bflaunch'
 import Users from '@/components/users'
+import SumUp from '@/components/sumup'
 
 const radialGradient = {
   width: "100vw",
@@ -30,6 +31,7 @@ export default function Home() {
         <Hook2 />
         <Hook3 />
       </div>
+      <SumUp />
       <Users />
       {/* <Close /> */}
       <CloseBfLaunch />
