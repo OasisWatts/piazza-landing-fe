@@ -22,7 +22,7 @@ export default function IntroBfLanch() {
             {/* Intro content */}
             <div className="pt-5 md:pt-20 md:mx-auto max-w-6xl px-5 min-h-[100vh] flex items-center justify-center">
                 {/* Section header */}
-                <div className="mb-[4rem] max-md:w-0 max-md:h-0" data-aos="zoom-y-out">
+                <div className="mb-[4rem] max-md:w-0 max-md:h-0 md:mr-10" data-aos="zoom-y-out">
                     <PiazzaLogo height="70" />
                 </div>
                 <div className="md:text-center my-auto">

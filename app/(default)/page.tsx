@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Piazza - Welcome to Piazza!',
-  description: 'Write & Share Anything within Web Pages on Piazza',
+  description: 'Write & Share Anything within Webpages on Piazza',
 }
 
 import Intro from '@/components/intro'

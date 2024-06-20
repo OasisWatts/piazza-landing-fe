@@ -24,7 +24,7 @@ export default function Hook3() {
                     A community right near you
                 </div>
                 <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
-                    Share your thoughts with people immediately after using web pages. We are planning to develope auto-created communities based on memos and tags. This would allow you to connect with people who share your interests without having to search for communities. As more people use the app, the precision of these communities could improve.
+                    Share your thoughts with people immediately after using webpages. We are planning to develope auto-created communities based on memos and tags. This would allow you to connect with people who share your interests without having to search for communities. As more people use the app, the precision of these communities could improve.
                 </div>
                 < div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">
                     <Swiper

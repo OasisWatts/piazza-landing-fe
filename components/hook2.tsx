@@ -12,7 +12,7 @@ export default function Hook2() {
                     The fastest way to write memos while browsing
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[5rem] md:text-center" data-aos="zoom-y-out">
-                    <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">Q. </p>Do you use a separate app to take notes about web pages?
+                    <p className="max-md:inline text-xl md:text-3xl font-bold mb-1">Q. </p>Do you use a separate app to take notes about webpages?
                 </div>
                 <div className='md:flex md:flex-row-reverse md:items-center'>
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">

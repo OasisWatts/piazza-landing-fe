@@ -24,7 +24,7 @@ export default function Hook3() {
                     The easiest way to share thoughts
                 </div>
                 <div className="text-gray-700 text-base md:text-lg mb-[1rem] md:mb-[5rem] md:text-center" data-aos="zoom-y-out">
-                    Want to share what you read on the web pages?
+                    Want to share what you read on the webpages?
                 </div>
                 <div className='md:flex md:flex-row md:items-center'>
                     <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">

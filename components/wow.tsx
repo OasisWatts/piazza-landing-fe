@@ -25,7 +25,7 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl text-white font-semibold">
+                            <div className="text-center text-2xl md:text-4xl text-white font-semibold font-urbanist">
                                 We offer features that other browsers don't have
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl mb-20 ">
+                            <div className="text-center text-2xl md:text-4xl mb-20">
                                 <p className="text-gray-400">Other Browser Saves Webpages</p>
                                 <div className="inline font-semibold text-white">BY BOOKMARKING THEM</div>
                             </div>
@@ -59,10 +59,10 @@ export default function Wow() {
             <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:justify-center md:mx-auto max-w-6xl md:min-h-[100vh]">
                 <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 md:my-auto" data-aos="zoom-y-out" data-aos-delay="300">
                     Bookmarking or taking screenshots are not ideal for
-                    <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) managing numerous web pages<br /> (2) remembering their contents<br />(3) quickly finding the specific page you need</p>
+                    <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) managing numerous webpages<br /> (2) remembering their contents<br />(3) quickly finding the specific page you need</p>
 
                     <p className="font-bold text-lg md:text-2xl mt-10">Try using hashtags instead.</p>
-                    Save web pages with more details and find them easily using tags.
+                    Save webpages with more details and find them easily using tags.
                 </div>
                 <div className='mx-auto px-2 md:px-10 md:w-1/2 max-md:max-w-[21rem]' data-aos="zoom-y-out" data-aos-delay="300">
                     <Swiper
@@ -123,7 +123,7 @@ export default function Wow() {
             <section className="scroll-effect-section-no-effect md:flex md:items-center md:justify-center md:flex md:flex-row-reverse md:mx-auto max-w-6xl md:min-h-[100vh]">
                 <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]" data-aos="zoom-y-out" data-aos-delay="300">
                     Ever had an idea while browsing and needed to jot it down?<br />
-                    <p className="font-bold text-lg md:text-2xl">Leave memos directly on the web page. </p>
+                    <p className="font-bold text-lg md:text-2xl">Leave memos directly on the webpage. </p>
                     No need to switch apps to write notes about webpages. Save webpages with your notes.
                 </div>
                 < div className="md:w-full" data-aos="zoom-y-out" data-aos-delay="300">
@@ -158,8 +158,8 @@ export default function Wow() {
             </section>
             <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:flex md:flex-row-reverse md:justify-center md:mx-auto md:min-h-[100vh] max-w-6xl">
                 <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]" data-aos="zoom-y-out">
-                    Want to share what you read on the web pages?<br />
-                    <p className="font-bold text-lg md:text-2xl">Share web page and your thoughts while browsing. </p>
+                    Want to share what you read on the webpages?<br />
+                    <p className="font-bold text-lg md:text-2xl">Share webpage and your thoughts while browsing. </p>
                     No need to switch apps to communicate.
                 </div>
                 <div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]" data-aos="zoom-y-out" data-aos-delay="300">
