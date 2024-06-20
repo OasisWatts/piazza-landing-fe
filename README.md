@@ -14,3 +14,8 @@
     - snap으로 certbot을 다운 받고, certbot --nginx -d 도메인.이름 -d www.도메인.이름 명령어로, 인증서 생성 및 .conf 파일 자동 반영한다
 - 방화벽 뚫어주기 (ssh 도 뚫어져야함 -> 다시 서버에 접속 못하는 경우 주의)
 - 참고: https://velog.io/@tlqhrm/Ubuntu-22.04%EC%97%90%EC%84%9C-Nginx%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EB%AC%B4%EB%A3%8C-Https-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0
+
+## 노트2
+- piazzabrowser.com은 CNAME record로 piazza.run을 가지고 있다.
+- nginx에서 piazza.run을 piazzabrowser.com으로 redirect한다.
+- 각각 ssl certification이 있다.
