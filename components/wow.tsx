@@ -38,7 +38,7 @@ export default function Wow() {
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20">
                                 <p className="text-gray-400">Other Browser Saves Webpages</p>
-                                <div className="inline font-semibold text-white">BY BOOKMARKING THEM</div>
+                                <div className="inline font-bold text-white">BY BOOKMARKING THEM</div>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ export default function Wow() {
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
                                 <p className="text-gray-400">Write Notes</p>
-                                <div className="inline text-white font-black blur-md">
+                                <div className="inline text-white font-black blur md:blur-md">
                                     "DIRECTLY ON WEBPAGES"</div>
                                 <p className="text-gray-400">In The Piazza Browser</p>
                             </div>
@@ -135,7 +135,7 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 ">
-                                <div className="inline text-white font-black blur-md">
+                                <div className="inline text-white font-black blur md:blur-md">
                                     "COMMUNICATE"</div>
                                 <p className="text-gray-400">About Webpages In The Piazza Browser</p>
                             </div>

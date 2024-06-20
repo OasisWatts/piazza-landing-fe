@@ -4,7 +4,7 @@
 export default function Users() {
     return (
         <section className='relative'>
-            <div className="mt-[5rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl">
+            <div className="mt-[7rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl">
                 <div className='md:text-center text-gray-800 font-urbanist font-semibold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[2rem] md:mb-[3rem]' data-aos="zoom-y-out">
                     Who can gain the most benefit from the Piazza?
                 </div>
