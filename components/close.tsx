@@ -1,11 +1,11 @@
 'use client'
 
 import ButtonDownload from "./button-download"
-import ButtonRouteWaitlist from "./button-routeWaitlist";
+import ButtonRouteWaitlist from "./button-routeWaitlist_bfLaunch";
 
 
 export default function Close() {
-    return (
+    return (//WARN: YOU MIGHT NEED TO ADD SOME CODE LINES FROM close-bflaunch.tsx 
         <section className="relative">
             {/* Intro content */}
             <div className="pt-28 pb-40 md:pb-60 md:pt-40 mx-5 md:mx-auto max-w-3xl">

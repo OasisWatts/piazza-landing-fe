@@ -7,7 +7,12 @@ export default function ButtonRouteWaitlist() {
     }
     return (
         <div>
-            <a style={gradientStyle} className="btn md:w-lbtn md:h-lbtn rounded-lg md:rounded-2xl font-urbanist md:text-xl text-gray-600 mb-4 md:mb-0" href="/waitlist">Join the Wait List</a>
+            <a style={gradientStyle} className="btn md:w-lbtn md:h-lbtn rounded-lg md:rounded-2xl font-urbanist md:text-xl text-gray-600 mb-4 md:mb-0" href="/waitlist">
+                <div className="inline-block">Join the Wait List</div>
+                <div className="inline-block">
+                    to be among the first users
+                </div>
+            </a>
         </div>
     )
 }

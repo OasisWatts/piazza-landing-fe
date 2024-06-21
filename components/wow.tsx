@@ -16,6 +16,7 @@ import BrowserMemoImg from '@/public/images/browser-memo.png'
 import Community0Img from '@/public/images/community-0.png'
 import Community1Img from '@/public/images/community-1.png'
 import PostImg from '@/public/images/post.png'
+import ButtonRouteWaitlist from './button-routeWaitlist_bfLaunch';
 
 
 export default function Wow() {
@@ -56,40 +57,48 @@ export default function Wow() {
                     </div>
                 </div>
             </section>
-            <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:justify-center md:mx-auto max-w-6xl md:min-h-[100vh]">
-                <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 md:my-auto">
-                    Bookmarking or taking screenshots are not ideal for
-                    <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) managing numerous webpages<br /> (2) remembering their contents<br />(3) quickly finding the specific page you need</p>
+            <section className="scroll-effect-section-no-effect md:mx-auto max-w-6xl md:min-h-[100vh]">
+                <div className="md:flex md:flex-row md:items-center md:justify-center">
+                    <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 md:my-auto">
+                        Bookmarking or taking screenshots is not ideal for:
+                        <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) Managing numerous webpages<br /> (2) Remembering their contents<br />(3) Quickly finding the specific page you need</p>
 
-                    <p className="font-bold text-lg md:text-2xl mt-10">Try using hashtags instead.</p>
-                    Save webpages with more details and find them easily using tags.
+                        <p className="font-bold text-lg md:text-2xl mt-10">Manage numerous webpages with hashtags.</p>
+                        Save webpages with more details and find them easily using hashtags.
+                        <div className="max-md:hidden text-center mt-[7rem]">
+                            <ButtonRouteWaitlist />
+                        </div>
+                    </div>
+                    <div className='mx-auto px-2 md:px-10 md:w-1/2 max-md:max-w-[21rem]'>
+                        <Swiper
+                            modules={[Navigation, Pagination, Autoplay]}
+                            spaceBetween={100}
+                            slidesPerView={1}
+                            navigation
+                            pagination={{ clickable: true }}
+                            autoplay={{ delay: 2000, disableOnInteraction: false }}
+                            loop={true}
+                        >
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={BrowserImg} alt="Feature Image1" priority />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={TagImg} alt="Feature Image1" priority />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={HomeTagImg} alt="Feature Image1" priority />
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div>
                 </div>
-                <div className='mx-auto px-2 md:px-10 md:w-1/2 max-md:max-w-[21rem]'>
-                    <Swiper
-                        modules={[Navigation, Pagination, Autoplay]}
-                        spaceBetween={100}
-                        slidesPerView={1}
-                        navigation
-                        pagination={{ clickable: true }}
-                        autoplay={{ delay: 2000, disableOnInteraction: false }}
-                        loop={true}
-                    >
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={BrowserImg} alt="Feature Image1" priority />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={TagImg} alt="Feature Image1" priority />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={HomeTagImg} alt="Feature Image1" priority />
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="md:hidden text-center mt-[4rem]">
+                    <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
                 </div>
             </section>
             <section className="scroll-effect-section bg-black">
@@ -120,15 +129,23 @@ export default function Wow() {
                     </div>
                 </div>
             </section>
-            <section className="scroll-effect-section-no-effect md:flex md:items-center md:justify-center md:flex md:flex-row-reverse md:mx-auto max-w-6xl md:min-h-[100vh]">
-                <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]">
-                    Ever had an idea while browsing and needed to jot it down?<br />
-                    <p className="font-bold text-lg md:text-2xl">Leave memos directly on the webpage. </p>
-                    No need to switch apps to write notes about webpages. Save webpages with your notes.
+            <section className="scroll-effect-section-no-effect md:mx-auto max-w-6xl">
+                <div className="md:flex md:items-center md:justify-center md:flex md:flex-row-reverse md:min-h-[100vh]">
+                    <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]">
+                        Ever had an idea while browsing and needed to jot it down?<br />
+                        <p className="font-bold text-lg md:text-2xl">Save webpages with notes to capture ideas that come to mind while reading.</p>
+                        No need to switch apps to write notes about webpages.
+                        <div className="max-md:hidden text-center mt-[7rem]">
+                            <ButtonRouteWaitlist />
+                        </div>
+                    </div>
+                    < div className="md:w-full">
+                        <Image className='md:w-img w-smimg max-md:mx-auto' src={BrowserMemoImg} alt="Community Post Image" />
+                    </div >
                 </div>
-                < div className="md:w-full">
-                    <Image className='md:w-img w-smimg max-md:mx-auto' src={BrowserMemoImg} alt="Community Post Image" />
-                </div >
+                <div className="md:hidden text-center mt-[4rem] max-w-xs">
+                    <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
+                </div>
             </section>
             <section className="scroll-effect-section bg-black">
                 <div className="scroll-effect-container">
@@ -156,44 +173,52 @@ export default function Wow() {
                     </div>
                 </div>
             </section>
-            <section className="scroll-effect-section-no-effect md:flex md:flex-row md:items-center md:flex md:flex-row-reverse md:justify-center md:mx-auto md:min-h-[100vh] max-w-6xl">
-                <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]">
-                    Want to share what you read on the webpages?<br />
-                    <p className="font-bold text-lg md:text-2xl">Share webpage and your thoughts while browsing. </p>
-                    No need to switch apps to communicate.
+            <section className="scroll-effect-section-no-effect md:mx-auto max-w-6xl">
+                <div className="md:flex md:flex-row-reverse md:justify-center md:items-center md:min-h-[100vh] ">
+                    <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]">
+                        Want to share what you read on the webpages?<br />
+                        <p className="font-bold text-lg md:text-2xl">Share webpage and your thoughts while browsing. </p>
+                        No need to switch apps to communicate.
+                        <div className="max-md:hidden text-center mt-[7rem]">
+                            <ButtonRouteWaitlist />
+                        </div>
+                    </div>
+                    <div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]">
+                        <Swiper
+                            modules={[Navigation, Pagination, Autoplay]}
+                            spaceBetween={100}
+                            slidesPerView={1}
+                            navigation
+                            pagination={{ clickable: true }}
+                            autoplay={{ delay: 2000, disableOnInteraction: false }}
+                            loop={true}
+                        >
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={BrowserImg} alt="Feature Image1" priority />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={Community0Img} alt="Feature Image2" priority />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={Community1Img} alt="Feature Image3" priority />
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className='px-[4rem] pt-[4rem] pb-10'>
+                                    <Image className='mx-auto' src={PostImg} alt="Feature Image4" priority />
+                                </div>
+                            </SwiperSlide>
+                        </Swiper>
+                    </div >
                 </div>
-                <div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]">
-                    <Swiper
-                        modules={[Navigation, Pagination, Autoplay]}
-                        spaceBetween={100}
-                        slidesPerView={1}
-                        navigation
-                        pagination={{ clickable: true }}
-                        autoplay={{ delay: 2000, disableOnInteraction: false }}
-                        loop={true}
-                    >
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={BrowserImg} alt="Feature Image1" priority />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={Community0Img} alt="Feature Image2" priority />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={Community1Img} alt="Feature Image3" priority />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='px-[4rem] pt-[4rem] pb-10'>
-                                <Image className='mx-auto' src={PostImg} alt="Feature Image4" priority />
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
-                </div >
+                <div className="md:hidden text-center mt-[4rem]">
+                    <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
+                </div>
             </section>
         </>
     )

@@ -1,8 +1,8 @@
 'use client'
 
 import ButtonDownload from "./button-download"
-import ButtonRouteWaitlist from "./button-routeWaitlist";
-import ButtonGradient from "./button-routeWaitlist"
+import ButtonRouteWaitlist from "./button-routeWaitlist_bfLaunch";
+import ButtonGradient from "./button-routeWaitlist_bfLaunch"
 import PiazzaLogo from '@/components/ui/logo-piazza';
 
 
