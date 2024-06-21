@@ -7,7 +7,7 @@ export default function ButtonRouteWaitlist() {
     }
     return (
         <div>
-            <a style={gradientStyle} className="btn md:w-lbtn md:h-lbtn rounded-lg md:rounded-2xl font-urbanist" href="/waitlist">
+            <a style={gradientStyle} className="btn md:w-lbtn md:h-lbtn rounded-lg md:rounded-2xl" href="/waitlist">
                 <div>
                     <div className="md:text-xl text-md text-gray-700 relative top-1">Join the Wait List</div>
                     <div className="md:text-base text-sm text-gray-500 relative bottom-1">

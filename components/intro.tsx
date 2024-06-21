@@ -25,7 +25,7 @@ export default function Intro() {
                     <PiazzaLogo height="70" />
                 </div>
                 <div className="md:text-center">
-                    <h1 className="text-3xl md:text-6xl font-urbanist font-extrabold leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-gray-500" data-aos="zoom-y-out">
+                    <h1 className="text-3xl md:text-6xl   font-extrabold leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-gray-500" data-aos="zoom-y-out">
                         Enhance Mobile Web Search Experience</h1>
                     <div className="text-lg md:text-2xl font-semibold text-gray-700 mb-[1rem] md:mb-[3rem]">
                         The mobile browser you need to make your web searches more efficient

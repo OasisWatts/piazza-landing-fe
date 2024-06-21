@@ -10,7 +10,7 @@ export default function Users() {
     return (
         <section className='relative'>
             <div className="mt-[7rem] md:mt-[10rem] px-5 md:mx-auto max-w-5xl">
-                <div className='md:text-center text-gray-800 font-urbanist font-semibold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[2rem] md:mb-[3rem]' data-aos="zoom-y-out">
+                <div className='md:text-center text-gray-800   font-extrabold leading-tighter tracking-tighter md:text-center text-2xl md:text-4xl mb-[2rem] md:mb-[3rem]' data-aos="zoom-y-out">
                     Who can gain the most benefit from the Piazza?
                 </div>
                 <div className="flex md:flex-row max-md:flex-col justify-between w-full" data-aos="zoom-y-out">
@@ -18,7 +18,7 @@ export default function Users() {
                         <div className="mb-2 md:mb-3">
                             <Image src={ExpertImg} alt="Student" className="w-[40%] rounded-full mx-auto" />
                         </div>
-                        <div className="font-rubik font-bold text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-violet to-darkpink">
+                        <div className="font-black text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-violet to-darkpink">
                             Experts
                         </div>
                         <div className="text-base sm:text-base mb-2 text-gray-500">
@@ -37,7 +37,7 @@ export default function Users() {
                         <div className="mb-2 md:mb-3">
                             <Image src={StudentImg} alt="Student" className="w-[40%] rounded-full mx-auto" />
                         </div>
-                        <div className="font-rubik font-bold text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-darkpink to-lightbrown">
+                        <div className="font-black text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-darkpink to-lightbrown">
                             Students
                         </div>
                         <div className="text-base sm:text-base mb-2 text-gray-500">
@@ -56,7 +56,7 @@ export default function Users() {
                         <div className="mb-2 md:mb-3">
                             <Image src={DesignerImg} alt="Student" className="w-[40%] rounded-full mx-auto" />
                         </div>
-                        <div className="font-rubik font-bold  text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-lightbrown to-darkviolet">
+                        <div className="font-black  text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-lightbrown to-darkviolet">
                             Designers
                         </div>
                         <div className="text-base sm:text-base mb-2 text-gray-500">

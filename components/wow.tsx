@@ -26,7 +26,7 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl text-white font-semibold font-urbanist">
+                            <div className="text-center text-2xl md:text-4xl text-white font-semibold font-rubik font-medium">
                                 We offer features that other browsers don't have
                             </div>
                         </div>
@@ -37,7 +37,7 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl mb-20">
+                            <div className="text-center text-2xl md:text-4xl mb-20 font-rubik font-medium">
                                 <p className="text-gray-400">Other Browser Saves Webpages</p>
                                 <div className="inline font-bold text-white">BY BOOKMARKING THEM</div>
                             </div>
@@ -49,9 +49,9 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl text-white mb-20">
+                            <div className="text-center text-2xl md:text-4xl text-white mb-20 font-rubik font-medium">
                                 <p className="text-gray-500">The Piazza Browser Saves Webpages</p>
-                                <div className="inline font-black">"WITH HASHTAGS"</div>
+                                <div className="inline font-bold">"WITH HASHTAGS"</div>
                             </div>
                         </div>
                     </div>
@@ -105,9 +105,9 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl mb-20 ">
+                            <div className="text-center text-2xl md:text-4xl mb-20 font-rubik font-medium">
                                 <p className="text-gray-400">Write Notes</p>
-                                <div className="inline text-white font-black blur md:blur-md">
+                                <div className="inline text-white font-bold blur md:blur-md">
                                     "DIRECTLY ON WEBPAGES"</div>
                                 <p className="text-gray-400">In The Piazza Browser</p>
                             </div>
@@ -119,9 +119,9 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl text-white mb-20">
+                            <div className="text-center text-2xl md:text-4xl text-white mb-20 font-rubik font-medium">
                                 <p className="text-gray-500">Write Notes</p>
-                                <div className="inline text-white font-black">
+                                <div className="inline text-white font-bold">
                                     "DIRECTLY ON WEBPAGES"</div>
                                 <p className="text-gray-500">In The Piazza Browser</p>
                             </div>
@@ -143,7 +143,7 @@ export default function Wow() {
                         <Image className='md:w-img w-smimg max-md:mx-auto' src={BrowserMemoImg} alt="Community Post Image" />
                     </div >
                 </div>
-                <div className="md:hidden text-center mt-[4rem] max-w-xs">
+                <div className="md:hidden text-center mt-[4rem]">
                     <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
                 </div>
             </section>
@@ -151,8 +151,8 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl mb-20 ">
-                                <div className="inline text-white font-black blur md:blur-md">
+                            <div className="text-center text-2xl md:text-4xl mb-20 font-rubik font-medium">
+                                <div className="inline text-white font-bold blur md:blur-md">
                                     "COMMUNICATE"</div>
                                 <p className="text-gray-400">About Webpages In The Piazza Browser</p>
                             </div>
@@ -164,8 +164,8 @@ export default function Wow() {
                 <div className="scroll-effect-container">
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
-                            <div className="text-center text-2xl md:text-4xl text-white mb-20">
-                                <div className="inline text-white font-black">
+                            <div className="text-center text-2xl md:text-4xl text-white mb-20 font-rubik font-medium">
+                                <div className="inline text-white font-bold">
                                     "COMMUNICATE"</div>
                                 <p className="text-gray-500">About Webpages In The Pizza Browser</p>
                             </div>
