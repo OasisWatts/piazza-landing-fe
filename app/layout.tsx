@@ -1,10 +1,10 @@
 import './css/style.css'
 
-import { Nunito_Sans, Urbanist, Rubik } from 'next/font/google'
+import { Nunito, Urbanist, Rubik } from 'next/font/google'
 
-const nunito = Nunito_Sans({
+const nunito = Nunito({
   subsets: ['latin'],
-  variable: '--font-nunito_sans',
+  variable: '--font-nunito',
   display: 'swap'
 })
 const urbanist = Urbanist({

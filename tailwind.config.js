@@ -45,7 +45,7 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        nunito: 'var(--font-nunito_sans)',
+        nunito: 'var(--font-nunito)',
         urbanist: 'var(--font-urbanist)',
         rubik: ['var(--font-rubik)', 'sans-serif'],
       },
