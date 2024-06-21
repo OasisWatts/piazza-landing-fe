@@ -63,8 +63,8 @@ export default function Wow() {
                         Bookmarking or taking screenshots is not ideal for:
                         <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) Managing numerous webpages<br /> (2) Remembering their contents<br />(3) Quickly finding the specific page you need</p>
 
-                        <p className="font-bold text-lg md:text-2xl mt-10">Manage numerous webpages with hashtags.</p>
-                        Save webpages with more details and find them easily using hashtags.
+                        <p className="font-bold text-lg md:text-2xl mt-10">Manage numerous webpages with hashtags</p>
+                        Save webpages with more details and find them easily using hashtags
                         <div className="max-md:hidden text-center mt-[7rem]">
                             <ButtonRouteWaitlist />
                         </div>
@@ -133,8 +133,8 @@ export default function Wow() {
                 <div className="md:flex md:items-center md:justify-center md:flex md:flex-row-reverse md:min-h-[100vh]">
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]">
                         Ever had an idea while browsing and needed to jot it down?<br />
-                        <p className="font-bold text-lg md:text-2xl">Save webpages with notes to capture ideas that come to mind while reading.</p>
-                        No need to switch apps to write notes about webpages.
+                        <p className="font-bold text-lg md:text-2xl">Save webpages with notes to capture ideas that come to mind while reading</p>
+                        No need to switch apps to write notes about webpages
                         <div className="max-md:hidden text-center mt-[7rem]">
                             <ButtonRouteWaitlist />
                         </div>
@@ -177,8 +177,8 @@ export default function Wow() {
                 <div className="md:flex md:flex-row-reverse md:justify-center md:items-center md:min-h-[100vh] ">
                     <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]">
                         Want to share what you read on the webpages?<br />
-                        <p className="font-bold text-lg md:text-2xl">Share webpage and your thoughts while browsing. </p>
-                        No need to switch apps to communicate.
+                        <p className="font-bold text-lg md:text-2xl">Share webpage and your thoughts while browsing </p>
+                        No need to switch apps to communicate
                         <div className="max-md:hidden text-center mt-[7rem]">
                             <ButtonRouteWaitlist />
                         </div>
