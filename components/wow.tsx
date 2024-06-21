@@ -39,7 +39,7 @@ export default function Wow() {
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 font-rubik font-medium">
                                 <p className="text-gray-400">Other Browser Saves Webpages</p>
-                                <div className="inline font-bold text-white">BY BOOKMARKING THEM</div>
+                                <div className="inline font-semibold text-white">BY BOOKMARKING THEM</div>
                             </div>
                         </div>
                     </div>
@@ -60,11 +60,14 @@ export default function Wow() {
             <section className="scroll-effect-section-no-effect md:mx-auto max-w-6xl md:min-h-[100vh]">
                 <div className="md:flex md:flex-row md:items-center md:justify-center">
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 md:my-auto">
-                        Bookmarking or taking screenshots is not ideal for:
-                        <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) Managing numerous webpages<br /> (2) Remembering their contents<br />(3) Quickly finding the specific page you need</p>
-
-                        <p className="font-bold text-lg md:text-2xl mt-10">Manage numerous webpages with hashtags</p>
-                        Save webpages with more details and find them easily using hashtags
+                        <p>
+                            Bookmarking or taking screenshots is not ideal for:
+                            <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) Managing numerous webpages<br /> (2) Remembering their contents<br />(3) Quickly finding the specific page you need</p>
+                        </p>
+                        <p className="my-1 md:my-3 font-bold text-lg md:text-2xl mt-10 leading-tighter tracking-tighter">Manage numerous webpages with hashtags</p>
+                        <p>
+                            Save webpages with more details and find them easily using hashtags
+                        </p>
                         <div className="max-md:hidden text-center mt-[7rem]">
                             <ButtonRouteWaitlist />
                         </div>
@@ -97,7 +100,7 @@ export default function Wow() {
                         </Swiper>
                     </div>
                 </div>
-                <div className="md:hidden text-center mt-[4rem]">
+                <div className="md:hidden text-center mt-[4rem] max-md:mb-[3rem]">
                     <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
                 </div>
             </section>
@@ -132,9 +135,15 @@ export default function Wow() {
             <section className="scroll-effect-section-no-effect md:mx-auto max-w-6xl">
                 <div className="md:flex md:items-center md:justify-center md:flex md:flex-row-reverse md:min-h-[100vh]">
                     <div className="md:w-full mx-auto text-gray-700 text-base md:text-lg text-gray-600 max-md:mb-[3rem]">
-                        Ever had an idea while browsing and needed to jot it down?<br />
-                        <p className="font-bold text-lg md:text-2xl">Save webpages with notes to capture ideas that come to mind while reading</p>
-                        No need to switch apps to write notes about webpages
+                        <p>
+                            Ever had an idea while browsing and needed to jot it down?
+                        </p>
+                        <p className="my-1 md:my-3 font-bold text-lg md:text-2xl leading-tighter tracking-tighter">
+                            Save webpages with notes to capture ideas that come to mind while reading
+                        </p>
+                        <p>
+                            No need to switch apps to write notes about webpages
+                        </p>
                         <div className="max-md:hidden text-center mt-[7rem]">
                             <ButtonRouteWaitlist />
                         </div>
@@ -143,7 +152,7 @@ export default function Wow() {
                         <Image className='md:w-img w-smimg max-md:mx-auto' src={BrowserMemoImg} alt="Community Post Image" />
                     </div >
                 </div>
-                <div className="md:hidden text-center mt-[4rem]">
+                <div className="md:hidden text-center mt-[4rem] max-md:mb-[3rem]">
                     <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
                 </div>
             </section>
@@ -176,9 +185,15 @@ export default function Wow() {
             <section className="scroll-effect-section-no-effect md:mx-auto max-w-6xl">
                 <div className="md:flex md:flex-row-reverse md:justify-center md:items-center md:min-h-[100vh] ">
                     <div className="text-gray-700 text-base md:text-lg md:mb-[2rem]">
-                        Want to share what you read on the webpages?<br />
-                        <p className="font-bold text-lg md:text-2xl">Share webpage and your thoughts while browsing </p>
-                        No need to switch apps to communicate
+                        <p>
+                            Want to share what you read on the webpages?
+                        </p>
+                        <p className="my-1 md:my-3 font-bold text-lg md:text-2xl leading-tighter tracking-tighter">
+                            Share webpage and your thoughts while browsing
+                        </p>
+                        <p>
+                            No need to switch apps to communicate
+                        </p>
                         <div className="max-md:hidden text-center mt-[7rem]">
                             <ButtonRouteWaitlist />
                         </div>
@@ -216,7 +231,7 @@ export default function Wow() {
                         </Swiper>
                     </div >
                 </div>
-                <div className="md:hidden text-center mt-[4rem]">
+                <div className="md:hidden text-center mt-[4rem] max-md:mb-[3rem]">
                     <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
                 </div>
             </section>

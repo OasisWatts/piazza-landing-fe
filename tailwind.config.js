@@ -46,8 +46,7 @@ module.exports = {
       },
       fontFamily: {
         nunito: 'var(--font-nunito)',
-        urbanist: 'var(--font-urbanist)',
-        rubik: ['var(--font-rubik)', 'sans-serif'],
+        rubik: ['var(--font-rubik)', 'sans-serif']
       },
       borderRadius: {
         xs: '0.75rem',
