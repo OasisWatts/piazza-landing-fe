@@ -7,7 +7,7 @@ import PiazzaLogo from '@/components/ui/logo-piazza';
 import { useState } from "react";
 import Checkbox from "./ui/checkbox";
 import axios from "axios";
-import { WAITLIST_SERVER_URL } from "./env";
+import { PIAZZA_DOMAIN } from "./env";
 
 export default function JoinWaitlist() {
     const [emailtext, setEmailText] = useState<string>("")
@@ -34,7 +34,7 @@ export default function JoinWaitlist() {
             setToggleAlertEmailFormat(false)
             if (checkPrivacyPolicy && checkReceiveEmail) { // request
                 setToggleAlertAgreement(false)
-                axios.get(WAITLIST_SERVER_URL + "/api/waitlist?e=" + emailtext).then((res) => {
+                axios.get(PIAZZA_DOMAIN + "/api/waitlist?e=" + emailtext).then((res) => {
                     window.location.href = "/toDiscord"
                 })
             } else {

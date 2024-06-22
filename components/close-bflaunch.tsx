@@ -6,14 +6,14 @@ import ButtonRouteWaitlistBfLaunch from "./button-routeWaitlist_bfLaunch";
 import ButtonGradient from "./button-routeWaitlist_bfLaunch"
 import PiazzaLogo from '@/components/ui/logo-piazza';
 import axios from "axios";
-import { WAITLIST_SERVER_URL } from "./env";
+import { PIAZZA_DOMAIN } from "./env";
 
 
 export default function CloseBfLaunch() {
     const [emptyNum, setEmptyNum] = useState<number>(100)
     const [totalNum, setTotalNum] = useState<number>(100)
     useEffect(() => {
-        axios.get(WAITLIST_SERVER_URL + "/api/countWaitlist").then((res) => {
+        axios.get(PIAZZA_DOMAIN + "/api/countWaitlist").then((res) => {
             const waitlistNum = res.data.count
             let totalNum, emptyNum
             if (waitlistNum < 1000) {

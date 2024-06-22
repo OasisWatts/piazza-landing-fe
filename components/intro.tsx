@@ -4,14 +4,14 @@ import ButtonDownload from "./button-download"
 import ButtonRouteWaitlistBfLaunch from "./button-routeWaitlist_bfLaunch";
 import ButtonGradient from "./button-routeWaitlist_bfLaunch"
 import PiazzaLogo from '@/components/ui/logo-piazza';
-import { WAITLIST_SERVER_URL } from "./env";
+import { PIAZZA_DOMAIN } from "./env";
 import { useEffect } from "react";
 import axios from "axios";
 
 
 export default function Intro() {
     useEffect(() => {
-        axios.get(WAITLIST_SERVER_URL + "/api/visit")
+        axios.get(PIAZZA_DOMAIN + "/api/visit")
     })
     return ( //WARN: YOU NEED TO ADD SOME CODE LINES FROM intro-bflaunch.tsx 
         <section className="relative h-[100vh]">

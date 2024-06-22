@@ -1,6 +1,27 @@
+import OGImg from '@/public/images/opengraph-image.png'
+
 export const metadata = {
   title: 'Piazza - Welcome to Piazza!',
-  description: 'Write & Share Anything within Webpages on Piazza'
+  description: 'Write & Share Anything within Webpages on Piazza',
+  metadataBase: new URL(PIAZZA_DOMAIN),
+  openGraph: {
+    images: [
+      {
+        url: OGImg.src,
+        width: OGImg.width,
+        height: OGImg.height
+      },
+    ],
+  },
+  twitter: {
+    images: [
+      {
+        url: OGImg.src,
+        width: OGImg.width,
+        height: OGImg.height
+      },
+    ]
+  },
 }
 
 import Intro from '@/components/intro'
@@ -12,6 +33,7 @@ import Users from '@/components/users'
 import SumUp from '@/components/sumup'
 import Wow from '@/components/wow'
 import Benefits from '@/components/benefits'
+import { PIAZZA_DOMAIN } from '@/components/env'
 
 // const radialGradient = {
 //   width: "100vw",
