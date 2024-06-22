@@ -16,7 +16,7 @@ export default function Benefits() {
                     <Image className="w-[48%] mr-[4%] inline" src={InBed} alt="Image: A man watching phone" />
                     <Image className="w-[48%] inline" src={TwoPeople} alt="Image: A women watching phone" />
                 </div>
-                <h1 className="mb-[5rem] md:mb-[10rem]   text-xl md:text-4xl leading-tighter tracking-tighter mb-[2rem] md:mb-[5rem] font-semibold" data-aos="zoom-y-out">
+                <h1 className="mb-[5rem] md:mb-[10rem] text-xl md:text-4xl leading-tighter tracking-tighter font-semibold" data-aos="zoom-y-out">
                     Enjoy sharing your thoughts from webpages <br /> on your mobile browser
                 </h1>
             </div>

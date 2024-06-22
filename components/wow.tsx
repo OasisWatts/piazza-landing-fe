@@ -38,8 +38,9 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 font-rubik font-medium">
-                                <p className="text-gray-400">The Piazza Browser Saves Webpagess</p>
-                                <div className="inline text-white font-bold blur md:blur-md">"WITH HASHTAGS</div>
+                                <p className="text-gray-400">Manage Numerous Webpages</p>
+                                <div className="inline text-white font-bold blur md:blur-md">"WITH HASHTAGS"</div>
+                                <p className="text-gray-500">In Piazza Browser</p>
                             </div>
                         </div>
                     </div>
@@ -50,8 +51,9 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl text-white mb-20 font-rubik font-medium">
-                                <p className="text-gray-500">The Piazza Browser Saves Webpages</p>
+                                <p className="text-gray-500">Manage Numerous Webpages</p>
                                 <div className="inline font-bold">"WITH HASHTAGS"</div>
+                                <p className="text-gray-500">In Piazza Browser</p>
                             </div>
                         </div>
                     </div>
@@ -64,7 +66,9 @@ export default function Wow() {
                             Bookmarking or taking screenshots is not ideal for:
                             <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) Managing numerous webpages<br /> (2) Remembering their contents<br />(3) Quickly finding the specific page you need</p>
                         </p>
-                        <p className="my-1 md:my-3 font-bold text-lg md:text-2xl mt-10 leading-tighter tracking-tighter">Manage numerous webpages with hashtags</p>
+                        <p className="my-1 md:my-3 font-bold text-lg md:text-2xl mt-10 leading-tighter tracking-tighter">
+                            Use hashtags instead!
+                        </p>
                         <p>
                             Save webpages with more details and find them easily using hashtags
                         </p>
@@ -112,7 +116,7 @@ export default function Wow() {
                                 <p className="text-gray-400">Write Notes</p>
                                 <div className="inline text-white font-bold blur md:blur-md">
                                     "DIRECTLY ON WEBPAGES"</div>
-                                <p className="text-gray-400">In The Piazza Browser</p>
+                                <p className="text-gray-400">To Capture Ideas</p>
                             </div>
                         </div>
                     </div>
@@ -126,7 +130,7 @@ export default function Wow() {
                                 <p className="text-gray-500">Write Notes</p>
                                 <div className="inline text-white font-bold">
                                     "DIRECTLY ON WEBPAGES"</div>
-                                <p className="text-gray-500">In The Piazza Browser</p>
+                                <p className="text-gray-500">To Capture Ideas</p>
                             </div>
                         </div>
                     </div>
