@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import ButtonDownload from "./button-download"
-import ButtonRouteWaitlist from "./button-routeWaitlist_bfLaunch";
+import ButtonRouteWaitlistBfLaunch from "./button-routeWaitlist_bfLaunch";
 import ButtonGradient from "./button-routeWaitlist_bfLaunch"
 import PiazzaLogo from '@/components/ui/logo-piazza';
 import { WAITLIST_SERVER_URL } from "./env";
@@ -51,7 +51,7 @@ export default function IntroBfLanch() {
                         <p className="inline text-brown font-black">{emptyNum}</p> spots left for the first <p className="inline text-darkviolet font-black">{totalNum}</p> users
                     </div>
                     <div className="mb-[0.5rem] md:mb-[1rem] max-w-xs md:mx-auto md:max-w-none content-start" data-aos="zoom-y-out" data-aos-delay="300">
-                        <ButtonRouteWaitlist />
+                        <ButtonRouteWaitlistBfLaunch />
                     </div>
                     <div className="  max-md:mb-[4rem] md:text-lg text-base text-gray-700" data-aos="zoom-y-out">Comming Soon in July to August</div>
                 </div>

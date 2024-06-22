@@ -16,7 +16,7 @@ import BrowserMemoImg from '@/public/images/browser-memo.png'
 import Community0Img from '@/public/images/community-0.png'
 import Community1Img from '@/public/images/community-1.png'
 import PostImg from '@/public/images/post.png'
-import ButtonRouteWaitlist from './button-routeWaitlist_bfLaunch';
+import ButtonRouteWaitlistSlim from './button-routeWaitlist_slim';
 
 
 export default function Wow() {
@@ -38,8 +38,8 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl mb-20 font-rubik font-medium">
-                                <p className="text-gray-400">Other Browser Saves Webpages</p>
-                                <div className="inline font-semibold text-white">BY BOOKMARKING THEM</div>
+                                <p className="text-gray-400">The Piazza Browser Saves Webpagess</p>
+                                <div className="inline text-white font-bold blur md:blur-md">"WITH HASHTAGS</div>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export default function Wow() {
                             Save webpages with more details and find them easily using hashtags
                         </p>
                         <div className="max-md:hidden text-center mt-[7rem]">
-                            <ButtonRouteWaitlist />
+                            <ButtonRouteWaitlistSlim />
                         </div>
                     </div>
                     <div className='mx-auto px-2 md:px-10 md:w-1/2 max-md:max-w-[21rem]'>
@@ -101,7 +101,7 @@ export default function Wow() {
                     </div>
                 </div>
                 <div className="md:hidden text-center mt-[4rem] max-md:mb-[3rem]">
-                    <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
+                    <ButtonRouteWaitlistSlim />{/*WARN: add download button af launch*/}
                 </div>
             </section>
             <section className="scroll-effect-section bg-black">
@@ -145,7 +145,7 @@ export default function Wow() {
                             No need to switch apps to write notes about webpages
                         </p>
                         <div className="max-md:hidden text-center mt-[7rem]">
-                            <ButtonRouteWaitlist />
+                            <ButtonRouteWaitlistSlim />
                         </div>
                     </div>
                     < div className="md:w-full">
@@ -153,7 +153,7 @@ export default function Wow() {
                     </div >
                 </div>
                 <div className="md:hidden text-center mt-[4rem] max-md:mb-[3rem]">
-                    <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
+                    <ButtonRouteWaitlistSlim />{/*WARN: add download button af launch*/}
                 </div>
             </section>
             <section className="scroll-effect-section bg-black">
@@ -195,7 +195,7 @@ export default function Wow() {
                             No need to switch apps to communicate
                         </p>
                         <div className="max-md:hidden text-center mt-[7rem]">
-                            <ButtonRouteWaitlist />
+                            <ButtonRouteWaitlistSlim />
                         </div>
                     </div>
                     <div className="md:w-1/2 mx-auto px-2 md:px-10 max-md:max-w-[21rem]">
@@ -232,7 +232,7 @@ export default function Wow() {
                     </div >
                 </div>
                 <div className="md:hidden text-center mt-[4rem] max-md:mb-[3rem]">
-                    <ButtonRouteWaitlist />{/*WARN: add download button af launch*/}
+                    <ButtonRouteWaitlistSlim />{/*WARN: add download button af launch*/}
                 </div>
             </section>
         </>

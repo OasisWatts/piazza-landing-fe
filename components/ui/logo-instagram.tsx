@@ -1,4 +1,4 @@
-export default function LogoInstagram(props: { size: number, fill: string }) {
+export default function LogoInstagram(props: { size: number, fill?: string }) {
     return (
         <div className="cursor-pointer" onClick={() => window.open("https://instagram.com/piazzabrowser", "_blank")}>
             <svg fill="none" height={props.size} width={props.size} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"

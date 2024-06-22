@@ -35,7 +35,7 @@ export default function JoinWaitlist() {
             if (checkPrivacyPolicy && checkReceiveEmail) { // request
                 setToggleAlertAgreement(false)
                 axios.get(WAITLIST_SERVER_URL + "/api/waitlist?e=" + emailtext).then((res) => {
-                    window.location.href = "/"
+                    window.location.href = "/toDiscord"
                 })
             } else {
                 setToggleAlertAgreement(true)

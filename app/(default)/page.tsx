@@ -1,6 +1,12 @@
 export const metadata = {
   title: 'Piazza - Welcome to Piazza!',
   description: 'Write & Share Anything within Webpages on Piazza',
+  openGraph: {
+    images: ['/public/images/OG.png']
+  },
+  twitter: {
+    images: ['/public/images/OG.png']
+  }
 }
 
 import Intro from '@/components/intro'

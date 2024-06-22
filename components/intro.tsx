@@ -1,7 +1,7 @@
 'use client'
 
 import ButtonDownload from "./button-download"
-import ButtonRouteWaitlist from "./button-routeWaitlist_bfLaunch";
+import ButtonRouteWaitlistBfLaunch from "./button-routeWaitlist_bfLaunch";
 import ButtonGradient from "./button-routeWaitlist_bfLaunch"
 import PiazzaLogo from '@/components/ui/logo-piazza';
 import { WAITLIST_SERVER_URL } from "./env";
@@ -34,7 +34,7 @@ export default function Intro() {
                     <div className="max-w-xs md:mx-auto md:max-w-none content-start flex flex-col md:flex-row md:justify-center md:items-center" data-aos="zoom-y-out" data-aos-delay="300">
                         <ButtonDownload />
                         <div className="md:mr-[1rem] md:ml-auto mr-auto mb-4 md:mb-0 text-gray-600 font-medium text-lg"> For iOS, </div>
-                        <ButtonRouteWaitlist />
+                        <ButtonRouteWaitlistBfLaunch />
                     </div>
                 </div>
             </div>

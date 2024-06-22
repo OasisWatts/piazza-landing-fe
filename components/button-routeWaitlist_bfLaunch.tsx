@@ -1,4 +1,4 @@
-export default function ButtonRouteWaitlist() {
+export default function ButtonRouteWaitlistBfLaunch() {
     const gradientStyle = {
         backgroundImage: "linear-gradient(#fff, #fff), linear-gradient(45deg, #E38F69, #D8B7F7)",
         border: "2px solid transparent",

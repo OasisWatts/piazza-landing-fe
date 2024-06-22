@@ -7,7 +7,7 @@ export default function ButtonRouteHome() {
     }
     return (
         <div>
-            <a style={gradientStyle} className="btn md:w-lbtn rounded-lg text-gray-600 mb-4 md:mb-0" href="/">Close</a>
+            <a style={gradientStyle} className="btn md:w-lbtn rounded-lg text-gray-600 mb-4 md:mb-0 max-md:w-full" href="/">Close</a>
         </div>
     )
 }

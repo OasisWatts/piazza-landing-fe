@@ -1,12 +1,34 @@
 'use client'
 
+import { useEffect, useState } from "react";
 import ButtonDownload from "./button-download"
-import ButtonRouteWaitlist from "./button-routeWaitlist_bfLaunch";
+import ButtonRouteWaitlistBfLaunch from "./button-routeWaitlist_bfLaunch";
 import ButtonGradient from "./button-routeWaitlist_bfLaunch"
 import PiazzaLogo from '@/components/ui/logo-piazza';
+import axios from "axios";
+import { WAITLIST_SERVER_URL } from "./env";
 
 
 export default function CloseBfLaunch() {
+    const [emptyNum, setEmptyNum] = useState<number>(100)
+    const [totalNum, setTotalNum] = useState<number>(100)
+    useEffect(() => {
+        axios.get(WAITLIST_SERVER_URL + "/api/countWaitlist").then((res) => {
+            const waitlistNum = res.data.count
+            let totalNum, emptyNum
+            if (waitlistNum < 1000) {
+                totalNum = Math.floor(waitlistNum / 100) * 100 + 100
+                emptyNum = totalNum - waitlistNum
+            } else {
+                totalNum = Math.floor(waitlistNum / 1000) * 1000 + 1000
+                emptyNum = totalNum - waitlistNum
+            }
+            console.log(res, waitlistNum, totalNum, emptyNum)
+            setEmptyNum(emptyNum)
+            setTotalNum(totalNum)
+        })
+    }, [])
+
     return (
         <section className="relative">
             {/* Intro content */}
@@ -18,10 +40,11 @@ export default function CloseBfLaunch() {
                     <div className="text-xl md:text-2xl  mb-[2rem] md:mb-[5rem] text-center" data-aos="zoom-y-out" data-aos-delay="300">
                         Comming Soon in<br />July to August
                     </div>
-
-                    <div className="md:text-lg text-base text-center text-gray-700 mb-2" data-aos="zoom-y-out" data-aos-delay="300">It's free!</div>
+                    <div className="text-base md:text-xl text-center text-gray-700 mb-[0.5rem] md:mb-[1.5rem]" data-aos="zoom-y-out">
+                        <p className="inline text-brown font-black">{emptyNum}</p> spots left for the first <p className="inline text-darkviolet font-black">{totalNum}</p> users
+                    </div>
                     <div className="max-w-xs mx-auto md:max-w-none content-start flex flex-col max-md:text-center" data-aos="zoom-y-out" data-aos-delay="300">
-                        <ButtonRouteWaitlist />
+                        <ButtonRouteWaitlistBfLaunch />
                     </div>
                 </div>
             </div>

@@ -1,8 +1,8 @@
-import TermsOfService from "@/components/terms-of-service"
+import ToDiscord from "@/components/to-discord"
 
 export const metadata = {
-    title: 'Terms of Service',
-    description: '',
+    title: 'Piazza - Join Discord Server',
+    description: 'Join Discord Server and get service!',
     openGraph: {
         images: ['/public/images/OG.png']
     },
@@ -12,11 +12,10 @@ export const metadata = {
 }
 
 
-
 export default function Home() {
     return (
         <>
-            <TermsOfService />
+            <ToDiscord />
         </>
     )
 }

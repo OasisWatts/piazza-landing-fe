@@ -1,7 +1,7 @@
 'use client'
 
 import ButtonDownload from "./button-download"
-import ButtonRouteWaitlist from "./button-routeWaitlist_bfLaunch";
+import ButtonRouteWaitlistBfLaunch from "./button-routeWaitlist_bfLaunch";
 
 
 export default function Close() {
@@ -18,7 +18,7 @@ export default function Close() {
                         <div className="mb-[1rem] md:mb-[3rem] mt-[3rem] md:mt-[10rem] text-gray-600 text-center text-lg">
                             If you are not Android user, we'll notify you when it's available.
                         </div>
-                        <ButtonRouteWaitlist />
+                        <ButtonRouteWaitlistBfLaunch />
                     </div>
                 </div>
             </div>

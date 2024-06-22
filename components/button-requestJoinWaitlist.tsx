@@ -4,7 +4,7 @@ export default function ButtonRequestJoinWaitlist({ requestJoinWaitlist }: { req
         backgroundSize: "cover"
     }
     return (
-        <div style={gradientStyle} className="btn md:w-lbtn rounded-lg text-white mb-4 md:mb-0 font-semibold cursor-pointer" onClick={requestJoinWaitlist}>
+        <div style={gradientStyle} className="btn md:w-lbtn rounded-lg text-white mb-4 md:mb-0 font-semibold cursor-pointer max-md:w-full" onClick={requestJoinWaitlist}>
             Join the Wait List
         </div>
     )
