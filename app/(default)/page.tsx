@@ -1,4 +1,5 @@
 import OGImg from '@/public/images/opengraph-image.png'
+import TwitterCardImag from '@/public/images/twitter-card-image.png'
 
 export const metadata = {
   title: 'Piazza - Welcome to Piazza!',
@@ -16,9 +17,9 @@ export const metadata = {
   twitter: {
     images: [
       {
-        url: OGImg.src,
-        width: OGImg.width,
-        height: OGImg.height
+        url: TwitterCardImag.src,
+        width: TwitterCardImag.width,
+        height: TwitterCardImag.height
       },
     ]
   },
