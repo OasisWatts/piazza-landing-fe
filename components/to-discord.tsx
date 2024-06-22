@@ -16,13 +16,13 @@ export default function ToDiscord() {
                 <div className="mb-[5rem] md:mb-[8rem] max-md:w-0 max-md:h-0">
                     <PiazzaLogo height="70" />
                 </div>
-                <div className='text-lg md:text-xl font-semibold'>
+                <div className='text-lg md:text-xl text-gray-700 '>
                     Join our discord server right now <br /> to get the latest development news <br /> and share your proposals!
                 </div>
                 <div className='rounded-full inline-block border-2 border-gray-300 p-3 mt-3 md:mt-10 hover:bg-gray-300'>
                     <LogoDiscord size={70} fill="#7289da" />
                 </div>
-                <div className='text-lg md:text-xl font-semibold mt-7 md:mt-20'>
+                <div className='text-lg md:text-xl font-semibold mt-7 md:mt-20 text-gray-700 '>
                     Join other SNS
                 </div>
                 <div className='inline-block w-full flex flex-row align-center justify-center mt-3 md:mt-10'>
