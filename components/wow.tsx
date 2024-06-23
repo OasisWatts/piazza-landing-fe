@@ -27,7 +27,7 @@ export default function Wow() {
                     <div className="scroll-effect-middle">
                         <div className="scroll-effect-inner">
                             <div className="text-center text-2xl md:text-4xl text-white font-semibold font-rubik font-medium">
-                                We offer features that other browsers don't have
+                                Piazza Browser offer features that other browsers don't have
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function Wow() {
                             <div className="text-center text-2xl md:text-4xl mb-20 font-rubik font-medium">
                                 <p className="text-gray-400">Manage Numerous Webpages</p>
                                 <div className="inline text-white font-bold blur md:blur-md">"WITH HASHTAGS"</div>
-                                <p className="text-gray-500">In Piazza Browser</p>
+                                <p className="text-gray-500 blur md:blur-md">In Piazza Browser</p>
                             </div>
                         </div>
                     </div>
@@ -66,10 +66,10 @@ export default function Wow() {
                             Bookmarking or taking screenshots is not ideal for:
                             <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) Managing numerous webpages<br /> (2) Remembering their contents<br />(3) Quickly finding the specific page you need</p>
                         </p>
-                        <p className="my-1 md:my-3 font-bold text-lg md:text-2xl mt-10 leading-tighter tracking-tighter">
+                        <p className=' mt-10'>
                             Use hashtags instead!
                         </p>
-                        <p>
+                        <p className="my-1 md:my-3 font-bold text-lg md:text-2xl leading-tighter tracking-tighter">
                             Save webpages with more details and find them easily using hashtags
                         </p>
                         <div className="max-md:hidden text-center mt-[7rem]">
