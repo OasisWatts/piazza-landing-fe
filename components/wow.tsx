@@ -16,7 +16,7 @@ import BrowserMemoImg from '@/public/images/browser-memo.png'
 import Community0Img from '@/public/images/community-0.png'
 import Community1Img from '@/public/images/community-1.png'
 import PostImg from '@/public/images/post.png'
-import ButtonRouteWaitlistSlim from './button-routeWaitlist_slim';
+import ButtonRouteWaitlistSlim from './buttons/button-routeWaitlist_slim';
 
 
 export default function Wow() {
@@ -67,7 +67,7 @@ export default function Wow() {
                             <p className='inline-block text-left ml-2 mt-3 md:mt-5 px-3 py-1 border-2 border-lightbrown rounded-lg'>(1) Managing numerous webpages<br /> (2) Remembering their contents<br />(3) Quickly finding the specific page you need</p>
                         </p>
                         <p className=' mt-10'>
-                            Use hashtags instead!
+                            Smart Saving: Use Hashtags for Easy Access
                         </p>
                         <p className="my-1 md:my-3 font-bold text-lg md:text-2xl leading-tighter tracking-tighter">
                             Save webpages with more details and find them easily using hashtags
@@ -180,7 +180,7 @@ export default function Wow() {
                             <div className="text-center text-2xl md:text-4xl text-white mb-20 font-rubik font-medium">
                                 <div className="inline text-white font-bold">
                                     "COMMUNICATE"</div>
-                                <p className="text-gray-500">About Webpages In The Pizza Browser</p>
+                                <p className="text-gray-500">About Webpages In The Piazza Browser</p>
                             </div>
                         </div>
                     </div>

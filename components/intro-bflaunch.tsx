@@ -1,9 +1,9 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import ButtonDownload from "./button-download"
-import ButtonRouteWaitlistBfLaunch from "./button-routeWaitlist_bfLaunch";
-import ButtonGradient from "./button-routeWaitlist_bfLaunch"
+import ButtonDownload from "./buttons/button-download"
+import ButtonRouteWaitlistBfLaunch from "./buttons/button-routeWaitlist_bfLaunch";
+import ButtonGradient from "./buttons/button-routeWaitlist_bfLaunch"
 import PiazzaLogo from '@/components/ui/logo-piazza';
 import { PIAZZA_DOMAIN } from "./env";
 import axios from "axios";
@@ -43,9 +43,10 @@ export default function IntroBfLanch() {
                 </div>
                 <div className="">
                     <h1 className="text-3xl md:text-6xl font-extrabold   leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-black" data-aos="zoom-y-out">
-                        Enhance<br />Mobile Web Search<br />Experience</h1>
+                        Organize Your Search, <br /> Share Your Thoughts
+                        {/* Enhance<br />Mobile Web Search<br />Experience */}</h1>
                     <div className="text-lg md:text-2xl   text-gray-700 mb-[1rem] md:mb-[3rem]" data-aos="zoom-y-out">
-                        The mobile browser you need <br /> to make your web searches more efficient
+                        The mobile browser you need <br /> to upgrade your search experience
                     </div>
                     <div className="text-base md:text-xl   text-gray-700 mb-[0.5rem] md:mb-[1.5rem]" data-aos="zoom-y-out">
                         <p className="inline text-brown font-black">{emptyNum}</p> spots left for the first <p className="inline text-darkviolet font-black">{totalNum}</p> users

@@ -31,10 +31,13 @@ import Description from '@/components/description'
 import IntroBfLanch from '@/components/intro-bflaunch'
 import CloseBfLaunch from '@/components/close-bflaunch'
 import Users from '@/components/users'
-import SumUp from '@/components/sumup'
 import Wow from '@/components/wow'
 import Benefits from '@/components/benefits'
 import { PIAZZA_DOMAIN } from '@/components/env'
+import IntroBfLanch1 from '@/components/intro-bflaunch1'
+import Wow1 from '@/components/wow1'
+import Users1 from '@/components/users1'
+import CloseBfLaunch1 from '@/components/close-bflaunch1'
 
 // const radialGradient = {
 //   width: "100vw",
@@ -45,14 +48,16 @@ export default function Home() {
   return (
     <>
       {/* <Intro /> */}
-      <IntroBfLanch />
+      <IntroBfLanch1 />
       {/* <Description /> */}
-      <Benefits />
-      <Wow />
-      <SumUp />
-      <Users />
+      {/* <Benefits /> */}
+      {/* <Wow /> */}
+      {<Wow1 />}
+      {/* <Users /> */}
+      <Users1 />
       {/* <Close /> */}
-      <CloseBfLaunch />
+      {/* <CloseBfLaunch /> */}
+      <CloseBfLaunch1 />
     </>
   )
 }

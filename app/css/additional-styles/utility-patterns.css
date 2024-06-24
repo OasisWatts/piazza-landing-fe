@@ -32,11 +32,11 @@
 }
 
 .btn {
-    @apply w-full w-btn h-btn;
+    @apply w-btn h-btn;
 }
 
 .btn-sm {
-    @apply px-4 py-2;
+    @apply w-sbtn h-sbtn;
 }
 
 /* Forms */

@@ -1,8 +1,8 @@
 'use client'
 
 
-import ButtonRequestJoinWaitlist from "@/components/button-requestJoinWaitlist"
-import ButtonRouteHome from "@/components/button-routeHome"
+import ButtonRequestJoinWaitlist from "@/components/buttons/button-requestJoinWaitlist"
+import ButtonRouteHome from "@/components/buttons/button-routeHome"
 import PiazzaLogo from '@/components/ui/logo-piazza';
 import { useState } from "react";
 import Checkbox from "./ui/checkbox";

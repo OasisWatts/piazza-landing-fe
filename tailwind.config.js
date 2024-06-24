@@ -13,8 +13,10 @@ module.exports = {
         brown: '#E38F69',//rgb(227, 143, 105)
         darkviolet: '#cb9ff5',
         darkpink: '#f38eb8',
-        lightviolet: '#c99af5',
+        lightviolet: '#E7CDFF',
+        lightpink: '#FFD5E6',
         lightbrown: '#f6d9cb',
+
         gray: {
           100: '#F3F3F3',
           200: '#EAEAEA',
@@ -106,14 +108,16 @@ module.exports = {
         '48': '12rem',
       },
       width: {
+        sbtn: '12rem',
         btn: '16rem',
         lbtn: '20rem',
         img: '17rem',
         smimg: '12rem'
       },
       height: {
+        sbtn: '2.8rem',
         btn: '3rem',
-        lbtn: '4rem',
+        lbtn: '3.5rem',
         img: '33rem',
         smimg: '23rem'
       },

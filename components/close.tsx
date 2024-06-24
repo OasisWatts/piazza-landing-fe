@@ -1,7 +1,7 @@
 'use client'
 
-import ButtonDownload from "./button-download"
-import ButtonRouteWaitlistBfLaunch from "./button-routeWaitlist_bfLaunch";
+import ButtonDownload from "./buttons/button-download"
+import ButtonRouteWaitlistBfLaunch from "./buttons/button-routeWaitlist_bfLaunch";
 
 
 export default function Close() {
