@@ -59,7 +59,7 @@ export default function Wow1() {
                     No need to switch apps to <br className="sm:hidden" /> organize data and share thoughts
                 </h2>
             </div>
-            <div className="bg-gradient-to-r from-lightyellow to-lightbrown">
+            <div className="bg-gradient-to-r from-lightyellow to-lightbrown" data-aos="zoom-y-out">
                 <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
                     <p className="my-[0.5rem] md:my-[2rem] text-xl md:text-3xl font-bold text-center">
                         Optimize your Search: <br className="sm:hidden" /> Save, Organize, Share

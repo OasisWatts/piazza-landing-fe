@@ -10,11 +10,11 @@ export default function Users1() {
     return (
         <section className='relative'>
             <div className="mt-[3rem] md:mt-[7rem] px-5 md:mx-auto max-w-5xl">
-                <div className='text-center text-gray-800 font-bold leading-tighter tracking-tighter md:text-center text-xl md:text-3xl  mb-[2rem] md:mb-[3rem]'>
+                <div className='text-center text-gray-800 font-bold leading-tighter tracking-tighter md:text-center text-xl md:text-3xl  mb-[2rem] md:mb-[3rem]' data-aos="zoom-y-out">
                     Who can gain the most benefit from the Piazza?
                 </div>
                 <div className="flex md:flex-row max-md:flex-col justify-between w-full">
-                    <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2">
+                    <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2" data-aos="zoom-y-out">
                         <div className="mb-2 md:mb-3">
                             <Image src={ExpertImg} alt="Student" className="w-[40%] rounded-full mx-auto" />
                         </div>
@@ -33,7 +33,7 @@ export default function Users1() {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2">
+                    <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2" data-aos="zoom-y-out">
                         <div className="mb-2 md:mb-3">
                             <Image src={StudentImg} alt="Student" className="w-[40%] rounded-full mx-auto" />
                         </div>
@@ -52,7 +52,7 @@ export default function Users1() {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2">
+                    <div className="rounded-lg md:w-[30%] max-md:mb-5 p-2 md:p-3 border-gray-300 border-2" data-aos="zoom-y-out">
                         <div className="mb-2 md:mb-3">
                             <Image src={DesignerImg} alt="Student" className="w-[40%] rounded-full mx-auto" />
                         </div>
