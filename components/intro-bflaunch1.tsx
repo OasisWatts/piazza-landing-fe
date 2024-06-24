@@ -42,8 +42,8 @@ export default function IntroBfLanch1() {
                 <div className=" mb-[0.5rem] md:mb-[1.5rem] px-10" data-aos="zoom-y-out">
                     <Image src={BottomBarImg} alt="mobile screen bottom bar image" />
                 </div>
-                <div className="text-sm md:text-xl text-base text-gray-700" data-aos="zoom-y-out" data-aos-delay="300">Comming Soon in August</div>
-                <div className="text-sm md:text-xl text-gray-700 mb-[0.5rem] md:mb-[1.5rem]" data-aos="zoom-y-out" data-aos-delay="300">
+                <div className="text-sm md:text-xl text-base text-gray-700 mb-[0.2rem]" data-aos="zoom-y-out" data-aos-delay="300">Comming Soon in August</div>
+                <div className="text-sm md:text-xl text-gray-700 mb-[1rem] md:mb-[2rem]" data-aos="zoom-y-out" data-aos-delay="300">
                     <p className="inline text-brown font-black">{emptyNum}</p> spots left for the first <p className="inline text-darkviolet font-black">{totalNum}</p> users
                 </div>
                 <div data-aos="zoom-y-out" data-aos-delay="300">
