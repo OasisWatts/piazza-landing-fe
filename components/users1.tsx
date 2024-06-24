@@ -21,7 +21,7 @@ export default function Users1() {
                         <p className="font-black text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-violet to-darkpink">
                             Experts
                         </p>
-                        <p className="font-bold text-base sm:text-lg mb-2 text-center">
+                        <p className="font-bold text-lg sm:text-lg mb-2 text-center">
                             Advance your expertise with ease
                         </p>
                         <div className="bg-white rounded-lg">
@@ -40,8 +40,8 @@ export default function Users1() {
                         <p className="font-black text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-violet to-darkpink">
                             Students
                         </p>
-                        <p className="font-bold text-base sm:text-lg mb-2 text-center">
-                            Enhance your online learning
+                        <p className="font-bold text-lg sm:text-lg mb-2 text-center">
+                            Boost your online learning
                         </p>
                         <div className="bg-white rounded-lg">
                             <div className="text-base">
@@ -59,7 +59,7 @@ export default function Users1() {
                         <p className="font-black text-lg sm:text-2xl text-center mb-2 rounded-lg text-white bg-gradient-to-r from-violet to-darkpink">
                             Designers
                         </p>
-                        <p className="font-bold text-base sm:text-lg mb-2 text-center">
+                        <p className="font-bold text-lg sm:text-lg mb-2 text-center">
                             Optimize your creative workflow
                         </p>
                         <div className="bg-white rounded-lg">

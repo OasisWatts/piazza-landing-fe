@@ -33,8 +33,8 @@ export default function CloseBfLaunch1() {
     return (
         <section className="relative">
             <div className="mt-[3rem] md:mt-[7rem] mb-[3rem] md:mb-60 mx-5 md:mx-auto max-w-3xl text-center">
-                <div className="text-xs md:text-xl text-base text-gray-700" data-aos="zoom-y-out">Comming Soon in August</div>
-                <div className="text-xs md:text-xl text-gray-700 mb-[0.5rem] md:mb-[1.5rem]" data-aos="zoom-y-out">
+                <div className="text-sm md:text-xl text-base text-gray-700" data-aos="zoom-y-out">Comming Soon in August</div>
+                <div className="text-sm md:text-xl text-gray-700 mb-[0.5rem] md:mb-[1.5rem]" data-aos="zoom-y-out">
                     <p className="inline text-brown font-black">{emptyNum}</p> spots left for the first <p className="inline text-darkviolet font-black">{totalNum}</p> users
                 </div>
                 <div data-aos="zoom-y-out" data-aos-delay="300">

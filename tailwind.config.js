@@ -16,6 +16,7 @@ module.exports = {
         lightviolet: '#E7CDFF',
         lightpink: '#FFD5E6',
         lightbrown: '#f6d9cb',
+        lightyellow: '#FFE8D2',
 
         gray: {
           100: '#F3F3F3',

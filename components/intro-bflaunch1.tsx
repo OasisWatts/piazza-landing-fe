@@ -36,14 +36,14 @@ export default function IntroBfLanch1() {
                 <h1 className="text-3xl md:text-6xl font-extrabold   leading-tighter tracking-tighter mb-[1rem] md:mb-[3rem] text-black" data-aos="zoom-y-out">
                     Organize Your Search, <br /> Share Your Thoughts
                     {/* Enhance<br />Mobile Web Search<br />Experience */}</h1>
-                <div className="text-xs md:text-xl text-gray-700 mb-[2rem] md:mb-[4rem]" data-aos="zoom-y-out">
-                    The mobile browser you need to upgrade your search experience
+                <div className="text-base md:text-xl text-gray-700 mb-[2rem] md:mb-[4rem]" data-aos="zoom-y-out">
+                    The mobile browser you need to <br className="sm:hidden" /> upgrade your search experience
                 </div>
                 <div className=" mb-[0.5rem] md:mb-[1.5rem] px-10" data-aos="zoom-y-out">
                     <Image src={BottomBarImg} alt="mobile screen bottom bar image" />
                 </div>
-                <div className="text-xs md:text-xl text-base text-gray-700" data-aos="zoom-y-out" data-aos-delay="300">Comming Soon in August</div>
-                <div className="text-xs md:text-xl text-gray-700 mb-[0.5rem] md:mb-[1.5rem]" data-aos="zoom-y-out" data-aos-delay="300">
+                <div className="text-sm md:text-xl text-base text-gray-700" data-aos="zoom-y-out" data-aos-delay="300">Comming Soon in August</div>
+                <div className="text-sm md:text-xl text-gray-700 mb-[0.5rem] md:mb-[1.5rem]" data-aos="zoom-y-out" data-aos-delay="300">
                     <p className="inline text-brown font-black">{emptyNum}</p> spots left for the first <p className="inline text-darkviolet font-black">{totalNum}</p> users
                 </div>
                 <div data-aos="zoom-y-out" data-aos-delay="300">

@@ -14,8 +14,8 @@ export default function Wow1() {
                 <h2 className="text-xl md:text-3xl font-bold">
                     Save smart: Use hashtags for easy access
                 </h2>
-                <p className="mt-[0.5rem] md:mt-[2rem] text-sm md:text-lg font-md text-gray-700">
-                    Save webpage with details and find easily <br className="md:hidden" />in the Piazza mobile browser
+                <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
+                    Save webpage with details and find easily <br className="sm:hidden" />in the Piazza mobile browser
                 </p>
             </div>
             <div className="bg-gradient-to-r from-lightviolet to-lightbrown w-full">
@@ -31,8 +31,8 @@ export default function Wow1() {
                 <h2 className="text-xl md:text-3xl font-bold">
                     Capture ideas instantly with webpage notes
                 </h2>
-                <p className="mt-[0.5rem] md:mt-[2rem] text-sm md:text-lg font-md text-gray-700">
-                    Write directly on webpages<br className="md:hidden" /> in the Piazza mobile browser
+                <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
+                    Write directly on webpages<br className="sm:hidden" /> in the Piazza mobile browser
                 </p>
             </div>
             <div className="bg-gradient-to-r from-lightbrown to-pink w-full">
@@ -44,8 +44,8 @@ export default function Wow1() {
                 <h2 className="text-xl md:text-3xl font-bold">
                     Read, Share, and Communicate Seamlessly
                 </h2>
-                <p className="mt-[0.5rem] md:mt-[2rem] text-sm md:text-lg font-md text-gray-700">
-                    Share webpages and thoughts<br className="md:hidden" /> in the Piazza mobile browser
+                <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
+                    Share webpages and thoughts<br className="sm:hidden" /> in the Piazza mobile browser
                 </p>
             </div>
             <div className="bg-gradient-to-r from-lightpink to-violet w-full">
@@ -53,13 +53,18 @@ export default function Wow1() {
                     <Image src={ScreenCommunityImg} alt="screen hashtag image" />
                 </div>
             </div>
+
             <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
                 <h2 className="text-lg md:text-2xl text-center">
-                    No need to switch apps to <br className="md:hidden" /> organize data and share thoughts
+                    No need to switch apps to <br className="sm:hidden" /> organize data and share thoughts
                 </h2>
-                <p className="mt-[0.5rem] md:mt-[2rem] text-2xl md:text-4xl font-extrabold text-center">
-                    Optimize your Search: <br className="md:hidden" /> Save, Organize, Share
-                </p>
+            </div>
+            <div className="bg-lightyellow">
+                <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
+                    <p className="my-[0.5rem] md:my-[2rem] text-xl md:text-3xl font-bold text-center">
+                        Optimize your Search: <br className="sm:hidden" /> Save, Organize, Share
+                    </p>
+                </div>
             </div>
         </section>
     )
