@@ -5,7 +5,7 @@ import { PIAZZA_DOMAIN } from "./env";
 import axios from "axios";
 import ButtonRouteWaitlistBfLaunch1 from "./buttons/button-routeWaitlist_bfLaunch1";
 import Image from "next/image";
-import BottomBarImg from "@/public/images/bottom-bar.jpg"
+import BottomBarImg from "@/public/images/bottom-bar.png"
 
 
 export default function IntroBfLanch1() {

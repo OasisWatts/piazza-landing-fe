@@ -18,7 +18,7 @@ export default function Wow1() {
                     Save webpage with details and find easily <br className="sm:hidden" />in the Piazza mobile browser
                 </p>
             </div>
-            <div className="bg-gradient-to-r from-lightviolet to-lightbrown w-full">
+            <div className="bg-gradient-to-r from-lightbrown to-pink w-full">
                 <div className="px-5 md:max-w-4xl mx-auto">
                     <Image src={ScreenHashtagImg} alt="screen hashtag image" />
                 </div>
@@ -35,7 +35,7 @@ export default function Wow1() {
                     Write directly on webpages<br className="sm:hidden" /> in the Piazza mobile browser
                 </p>
             </div>
-            <div className="bg-gradient-to-r from-lightbrown to-pink w-full">
+            <div className="bg-gradient-to-r from-lightyellow to-lightbrown  w-full">
                 <div className="pb-5 md:pb-10 px-[4rem] md:max-w-3xl mx-auto">
                     <Image src={ScreenMemoImg} alt="screen hashtag image" />
                 </div>
@@ -48,7 +48,7 @@ export default function Wow1() {
                     Share webpages and thoughts<br className="sm:hidden" /> in the Piazza mobile browser
                 </p>
             </div>
-            <div className="bg-gradient-to-r from-lightpink to-violet w-full">
+            <div className="bg-gradient-to-r  from-lightbrown to-lightviolet w-full">
                 <div className="px-5 md:max-w-4xl mx-auto">
                     <Image src={ScreenCommunityImg} alt="screen hashtag image" />
                 </div>

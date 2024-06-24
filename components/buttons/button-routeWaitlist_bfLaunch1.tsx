@@ -4,7 +4,7 @@ export default function ButtonRouteWaitlistBfLaunch1() {
         backgroundSize: "cover"
     }
     return (
-        <div className="text-center md:btn md:w-lbtn md:h-lbtn btn-sm rounded-full bg-gradient-to-r from-lightpink to-lightviolet">
+        <div className="text-center md:btn md:w-lbtn md:h-lbtn btn-sm rounded-full bg-gradient-to-r from-lightviolet to-lightyellow">
             <a className="" href="/waitlist">
                 {/* <div> */}
                 <div className="md:text-lg text-base relative top-1">Join the Wait List</div>
