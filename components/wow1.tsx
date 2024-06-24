@@ -6,7 +6,7 @@ import ScreenCommunityImg from "@/public/images/screen-community.png"
 export default function Wow1() {
     return (
         <section className="relative mt-[3rem] md:mt-[7rem]">
-            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
+            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
                 <h2 className="text-xl md:text-3xl font-bold">
                     84% of bookmarked URLs are not retrieved
                 </h2>
@@ -20,10 +20,10 @@ export default function Wow1() {
             </div>
             <div className="bg-gradient-to-r from-lightbrown to-pink w-full">
                 <div className="px-5 md:max-w-4xl mx-auto">
-                    <Image src={ScreenHashtagImg} alt="screen hashtag image" />
+                    <Image src={ScreenHashtagImg} alt="screen hashtag image" data-aos="zoom-y-out" />
                 </div>
             </div>
-            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
+            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
                 <h2 className="text-xl md:text-3xl font-bold">
                     Short-term memory lasts only for 15 - 30 seconds
                 </h2>
@@ -35,12 +35,12 @@ export default function Wow1() {
                     Write directly on webpages<br className="sm:hidden" /> in the Piazza mobile browser
                 </p>
             </div>
-            <div className="bg-gradient-to-r from-lightyellow to-lightbrown  w-full">
+            <div className="bg-gradient-to-r from-lightyellow to-lightbrown w-full" data-aos="zoom-y-out">
                 <div className="pb-5 md:pb-10 px-[4rem] md:max-w-3xl mx-auto">
                     <Image src={ScreenMemoImg} alt="screen hashtag image" />
                 </div>
             </div>
-            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
+            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
                 <h2 className="text-xl md:text-3xl font-bold">
                     Read, Share, and Communicate Seamlessly
                 </h2>
@@ -48,18 +48,18 @@ export default function Wow1() {
                     Share webpages and thoughts<br className="sm:hidden" /> in the Piazza mobile browser
                 </p>
             </div>
-            <div className="bg-gradient-to-r  from-lightbrown to-lightviolet w-full">
+            <div className="bg-gradient-to-r  from-lightbrown to-lightviolet w-full" data-aos="zoom-y-out">
                 <div className="px-5 md:max-w-4xl mx-auto">
                     <Image src={ScreenCommunityImg} alt="screen hashtag image" />
                 </div>
             </div>
 
-            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
+            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
                 <h2 className="text-lg md:text-2xl text-center">
                     No need to switch apps to <br className="sm:hidden" /> organize data and share thoughts
                 </h2>
             </div>
-            <div className="bg-lightyellow">
+            <div className="bg-gradient-to-r from-lightyellow to-lightbrown">
                 <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
                     <p className="my-[0.5rem] md:my-[2rem] text-xl md:text-3xl font-bold text-center">
                         Optimize your Search: <br className="sm:hidden" /> Save, Organize, Share
