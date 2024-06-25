@@ -66,9 +66,8 @@ export default function JoinWaitlist() {
                     {toggleAlertEmailFormat ? "ⓘ Wrong email format" : ""}
                     {toggleAlertAgreement ? "ⓘ You must agree to all items" : ""}
                 </div>
-                <div className="w-full md:mx-auto content-start flex flex-col md:flex-row md:justify-between md:items-center">
+                <div className="md:mx-auto content-start flex flex-col md:flex-row md:justify-between md:items-center">
                     <ButtonRequestJoinWaitlist requestJoinWaitlist={requestJoinWaitlist} />
-                    <ButtonRouteHome />
                 </div>
             </div>
         </section>
