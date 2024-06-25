@@ -54,7 +54,7 @@ export default function IntroBfLanch() {
                     <div className="mb-[0.5rem] md:mb-[1rem] max-w-xs md:mx-auto md:max-w-none content-start" data-aos="zoom-y-out" data-aos-delay="300">
                         <ButtonRouteWaitlistBfLaunch />
                     </div>
-                    <div className="  max-md:mb-[4rem] md:text-lg text-base text-gray-700" data-aos="zoom-y-out">Comming Soon in July to August</div>
+                    <div className="  max-md:mb-[4rem] md:text-lg text-base text-gray-700" data-aos="zoom-y-out">ComingSoon in July to August</div>
                 </div>
             </div>
         </section >

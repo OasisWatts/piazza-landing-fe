@@ -63,7 +63,7 @@ export default function Wow1() {
             </div>
             <div className="bg-gradient-to-r from-lightyellow to-lightbrown" data-aos="zoom-y-out">
                 <div className="pt-[3rem] md:pt-[7rem] mx-auto max-w-6xl pb-[3rem] md:pb-[6rem] px-5 flex flex-col items-center align-center text-center">
-                    <p className="my-[0.5rem] md:my-[2rem] text-xl md:text-3xl font-bold text-center">
+                    <p className="my-[0.5rem] md:my-[2rem] text-xl md:text-3xl text-center">
                         Optimize your Search: <br className="sm:hidden" /> Save, Organize, Share
                     </p>
                 </div>
