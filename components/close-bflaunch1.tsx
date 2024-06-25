@@ -1,10 +1,6 @@
 'use client'
 
 import { useEffect, useState } from "react";
-import ButtonDownload from "./buttons/button-download"
-import ButtonRouteWaitlistBfLaunch from "./buttons/button-routeWaitlist_bfLaunch";
-import ButtonGradient from "./buttons/button-routeWaitlist_bfLaunch"
-import PiazzaLogo from '@/components/ui/logo-piazza';
 import axios from "axios";
 import { PIAZZA_DOMAIN } from "./env";
 import ButtonRouteWaitlistBfLaunch1 from "./buttons/button-routeWaitlist_bfLaunch1";

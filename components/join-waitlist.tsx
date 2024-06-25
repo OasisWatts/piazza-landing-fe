@@ -3,7 +3,6 @@
 
 import ButtonRequestJoinWaitlist from "@/components/buttons/button-requestJoinWaitlist"
 import ButtonRouteHome from "@/components/buttons/button-routeHome"
-import PiazzaLogo from '@/components/ui/logo-piazza';
 import { useState } from "react";
 import Checkbox from "./ui/checkbox";
 import axios from "axios";
@@ -46,13 +45,7 @@ export default function JoinWaitlist() {
     }
     return (
         <section className="relative">
-            <div className="absolute top-5 right-5 md:w-0 md:h-0" data-aos="zoom-y-out">
-                <PiazzaLogo height="35" />
-            </div>
             <div className="pt-28 pb-40 mx-5 md:mx-auto max-w-2xl" data-aos="zoom-y-out">
-                <div className="mb-[5rem] md:mb-[8rem] max-md:w-0 max-md:h-0">
-                    <PiazzaLogo height="70" />
-                </div>
                 <div className="w-full mb-5">
                     <label htmlFor="email" />
                     <input id="email" type="email" value={emailtext} onChange={handleOnChangeEmail} className="form-input rounded-lg w-full text-gray-800" placeholder="Enter your email address" required />

@@ -25,11 +25,13 @@ export default function Users1() {
                             Advance your expertise with ease
                         </p>
                         <div className="bg-white rounded-lg">
-                            <div className="text-base">
-                                <p className="inline text-violet">▶</p> Hashtag detailed web pages directly in your browser
+                            <div className="text-base flex flex-row">
+                                <p className="text-darkviolet mr-2">▶</p>
+                                <p >Hashtag detailed web pages directly in your browser</p>
                             </div>
-                            <div className="text-base">
-                                <p className="inline text-violet">▶</p> Note down insights instantly
+                            <div className="text-base flex flex-row">
+                                <p className="text-darkviolet mr-2">▶</p>
+                                <p>Note down insights instantly</p>
                             </div>
                         </div>
                     </div>
@@ -44,11 +46,13 @@ export default function Users1() {
                             Boost your online learning
                         </p>
                         <div className="bg-white rounded-lg">
-                            <div className="text-base">
-                                <p className="inline text-violet">▶</p> Save notes and tags on web pages to organize your learning
+                            <div className="text-base flex flex-row">
+                                <p className="text-darkviolet mr-2">▶</p>
+                                <p> Save notes and tags on web pages to organize your learning</p>
                             </div>
-                            <div className="text-base">
-                                <p className="inline text-violet">▶</p> Discuss the pages you visit with others
+                            <div className="text-base flex flex-row">
+                                <p className="text-darkviolet mr-2">▶</p>
+                                <p>Discuss the pages you visit with others</p>
                             </div>
                         </div>
                     </div>
@@ -63,11 +67,13 @@ export default function Users1() {
                             Optimize your creative workflow
                         </p>
                         <div className="bg-white rounded-lg">
-                            <div className="text-base">
-                                <p className="inline text-violet">▶</p> Neatly organize numerous reference web pages
+                            <div className="text-base flex flex-row">
+                                <p className="text-darkviolet mr-2">▶</p>
+                                <p>Neatly organize numerous reference web pages</p>
                             </div>
-                            <div className="text-base">
-                                <p className="inline text-violet">▶</p> Capture memos for ideas inspired by your references
+                            <div className="text-base flex flex-row">
+                                <p className="text-darkviolet mr-2">▶</p>
+                                <p>Capture memos for ideas inspired by your references</p>
                             </div>
                         </div>
                     </div>

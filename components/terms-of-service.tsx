@@ -1,7 +1,5 @@
 'use client'
 
-import PiazzaLogo from '@/components/ui/logo-piazza';
-
 export default function TermsOfService() {
     const OnClickMenu = (e: React.SyntheticEvent<HTMLAnchorElement>) => {
         e.preventDefault();
@@ -12,13 +10,7 @@ export default function TermsOfService() {
     };
     return (
         <section className="relative">
-            <div className="absolute top-5 right-5 md:w-0 md:h-0" data-aos="zoom-y-out">
-                <PiazzaLogo height="35" />
-            </div>
             <div className="pt-28 pb-40 mx-5 md:mx-auto max-w-2xl">
-                <div className="mb-[5rem] md:mb-[8rem] max-md:w-0 max-md:h-0" data-aos="zoom-y-out">
-                    <PiazzaLogo height="70" />
-                </div>
                 <h1 className="md:text-center text-3xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-[4rem] md:mb-[5rem]" data-aos="zoom-y-out">
                     Terms of Service</h1>
                 <div className="md:text-sm text-xs text-gray-700" data-aos="zoom-y-out" data-aos-delay="300">

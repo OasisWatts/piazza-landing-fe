@@ -6,17 +6,21 @@ import ScreenCommunityImg from "@/public/images/screen-community.png"
 export default function Wow1() {
     return (
         <section className="relative mt-[3rem] md:mt-[7rem]">
-            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
-                <h2 className="text-xl md:text-3xl font-bold">
-                    84% of bookmarked URLs are not retrieved
-                </h2>
-                <div className="w-1 border-r-2 border-black h-[2rem] md:h-[4rem] my-3" />
-                <h2 className="text-xl md:text-3xl font-bold">
-                    Save smart: Use hashtags for easy access
-                </h2>
-                <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
-                    Save webpage with details and find easily <br className="sm:hidden" />in the Piazza mobile browser
-                </p>
+            <div className="bg-gradient-to-r from-lightyellow to-lightbrown py-1">
+                <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
+                    <h2 className="text-xl md:text-3xl font-bold">
+                        84% of bookmarked URLs are not retrieved
+                    </h2>
+                    <div className="w-1 border-r-2 border-black h-[2rem] md:h-[4rem] my-3" />
+                    <h2 className="text-xl md:text-3xl font-bold">
+                        Never Lose a Link: Organize with Hashtags
+                    </h2>
+                    <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
+                        Bookmark is not for managing numerous webpages and remembering its contents.
+                        <br />
+                        Use hashtags instead, and handle many webpages.
+                    </p>
+                </div>
             </div>
             <div className="bg-gradient-to-r from-lightbrown to-pink w-full">
                 <div className="px-5 md:max-w-4xl mx-auto">
@@ -29,10 +33,12 @@ export default function Wow1() {
                 </h2>
                 <div className="w-1 border-r-2 border-black h-[2rem] md:h-[4rem] my-3" />
                 <h2 className="text-xl md:text-3xl font-bold">
-                    Capture ideas instantly with webpage notes
+                    Capture ideas instantly by writing directly on webpages
                 </h2>
                 <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
-                    Write directly on webpages<br className="sm:hidden" /> in the Piazza mobile browser
+                    No need to switch apps.
+                    <br />
+                    Quickly jot down your thoughts on webpages and easily access them later.
                 </p>
             </div>
             <div className="bg-gradient-to-r from-lightyellow to-lightbrown w-full" data-aos="zoom-y-out">
@@ -45,7 +51,9 @@ export default function Wow1() {
                     Read, Share, and Communicate Seamlessly
                 </h2>
                 <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
-                    Share webpages and thoughts<br className="sm:hidden" /> in the Piazza mobile browser
+                    No need to find a place to share webpages.
+                    <br />
+                    Instantly discuss webpage on your mobile browser.
                 </p>
             </div>
             <div className="bg-gradient-to-r  from-lightbrown to-lightviolet w-full" data-aos="zoom-y-out">
@@ -53,14 +61,8 @@ export default function Wow1() {
                     <Image src={ScreenCommunityImg} alt="screen hashtag image" />
                 </div>
             </div>
-
-            <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
-                <h2 className="text-lg md:text-2xl text-center">
-                    No need to switch apps to <br className="sm:hidden" /> organize data and share thoughts
-                </h2>
-            </div>
             <div className="bg-gradient-to-r from-lightyellow to-lightbrown" data-aos="zoom-y-out">
-                <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center">
+                <div className="pt-[3rem] md:pt-[7rem] mx-auto max-w-6xl pb-[3rem] md:pb-[6rem] px-5 flex flex-col items-center align-center text-center">
                     <p className="my-[0.5rem] md:my-[2rem] text-xl md:text-3xl font-bold text-center">
                         Optimize your Search: <br className="sm:hidden" /> Save, Organize, Share
                     </p>
