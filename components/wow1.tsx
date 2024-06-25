@@ -9,22 +9,18 @@ export default function Wow1() {
             <div className="bg-gradient-to-r from-lightyellow to-lightbrown py-1">
                 <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
                     <h2 className="text-xl md:text-3xl font-bold">
-                        84% of bookmarked URLs are not retrieved
-                    </h2>
-                    <div className="w-1 border-r-2 border-black h-[2rem] md:h-[4rem] my-3" />
-                    <h2 className="text-xl md:text-3xl font-bold">
-                        Never Lose a Link: Organize with Hashtags
+                        Read, Share, and Communicate Seamlessly
                     </h2>
                     <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
-                        Bookmark is not for managing numerous webpages and remembering its contents.
+                        No need to find a place to share webpages.
                         <br />
-                        Use hashtags instead, and handle many webpages.
+                        Instantly discuss webpage on your mobile browser.
                     </p>
                 </div>
             </div>
-            <div className="bg-gradient-to-r from-lightbrown to-pink w-full">
+            <div className="bg-gradient-to-r  from-lightbrown to-lightviolet w-full" data-aos="zoom-y-out">
                 <div className="px-5 md:max-w-4xl mx-auto">
-                    <Image src={ScreenHashtagImg} alt="screen hashtag image" data-aos="zoom-y-out" />
+                    <Image src={ScreenCommunityImg} alt="screen hashtag image" />
                 </div>
             </div>
             <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
@@ -48,17 +44,21 @@ export default function Wow1() {
             </div>
             <div className="mt-[3rem] md:mt-[7rem] mx-auto max-w-6xl mb-[3rem] md:mb-[6rem] px-5 flex flex-col items-center align-center text-center" data-aos="zoom-y-out">
                 <h2 className="text-xl md:text-3xl font-bold">
-                    Read, Share, and Communicate Seamlessly
+                    84% of bookmarked URLs are not retrieved
+                </h2>
+                <div className="w-1 border-r-2 border-black h-[2rem] md:h-[4rem] my-3" />
+                <h2 className="text-xl md:text-3xl font-bold">
+                    Never Lose a Link: Organize with Hashtags
                 </h2>
                 <p className="mt-[0.5rem] md:mt-[2rem] text-base md:text-lg font-md text-gray-700">
-                    No need to find a place to share webpages.
+                    Bookmark is not for managing numerous webpages and remembering its contents.
                     <br />
-                    Instantly discuss webpage on your mobile browser.
+                    Use hashtags instead, and handle many webpages.
                 </p>
             </div>
-            <div className="bg-gradient-to-r  from-lightbrown to-lightviolet w-full" data-aos="zoom-y-out">
+            <div className="bg-gradient-to-r from-lightbrown to-pink w-full">
                 <div className="px-5 md:max-w-4xl mx-auto">
-                    <Image src={ScreenCommunityImg} alt="screen hashtag image" />
+                    <Image src={ScreenHashtagImg} alt="screen hashtag image" data-aos="zoom-y-out" />
                 </div>
             </div>
             <div className="bg-gradient-to-r from-lightyellow to-lightbrown" data-aos="zoom-y-out">

@@ -5,7 +5,7 @@ export default function PiazzaLogo(props: { gotoHome?: boolean, height: string }
         }
     }
     return (
-        <div onClick={handleClick}>
+        <div onClick={handleClick} className="cursor-pointer">
             <svg width="current" viewBox="0 0 271 70" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" height={props.height}>
                 <g clip-path="url(#clip0_514_251)">
                     <path d="M66.6841 27.0006L43.0002 3.31663C38.5827 -1.1009 31.4181 -1.1009 26.9882 3.31663L3.31663 27.0006C-1.1009 31.4181 -1.1009 38.5827 3.31663 43.0126L27.0006 66.6965C31.4181 71.1141 38.5827 71.1141 43.0126 66.6965L66.6965 43.0126C71.1141 38.595 71.1141 31.4305 66.6965 27.0006H66.6841ZM35.0066 51.0186C26.1591 51.0186 18.9822 43.8416 18.9822 34.9942C18.9822 26.1468 26.1591 18.9698 35.0066 18.9698C43.854 18.9698 51.031 26.1468 51.031 34.9942C51.031 43.8416 43.854 51.0186 35.0066 51.0186Z" fill="url(#paint0_linear_514_251)" />
