@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import StudentImg from '@/public/images/student.jpeg'
-import DesignerImg from '@/public/images/designer.jpg'
+import DesignerImg from '@/public/images/designer.jpeg'
 import ExpertImg from '@/public/images/expert.jpeg'
 
 
