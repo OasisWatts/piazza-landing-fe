@@ -14,7 +14,7 @@ export default function IntroBfLanch1() {
     useEffect(() => {
         axios.get(PIAZZA_DOMAIN + "/api/visit")
         axios.get(PIAZZA_DOMAIN + "/api/countWaitlist").then((res) => {
-            const waitlistNum = res.data.count
+            const waitlistNum = res.data.count + 30
             let totalNum, emptyNum
             if (waitlistNum < 1000) {
                 totalNum = Math.floor(waitlistNum / 100) * 100 + 100
