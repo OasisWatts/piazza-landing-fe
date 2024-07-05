@@ -73,7 +73,7 @@ export default function Users1() {
                             </div>
                             <div className="text-base flex flex-row">
                                 <p className="text-darkviolet mr-2">▶</p>
-                                <p>Capture memos for ideas inspired by your references</p>
+                                <p>Capture ideas inspired by your references</p>
                             </div>
                         </div>
                     </div>
